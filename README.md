@@ -24,7 +24,6 @@ Full pipeline of a data science competition
 |ResNet34-256|1|1|0.868|0.870|N/A|
 |ResNet34-128|1|1|0.837|0.855|N/A|
 |ResNet34-128|1|6|0.854|0.873|N/A|
-|ResNet34-128|1|6|0.854|0.873|N/A|
 |ResNet34-128|10|60|0.869|0.884|N/A|
 |SE-ResNeXt-50-BN-128|3|3|0.861|0.880|N/A|
 |ResNet34-128+256-post|1|2|0.875|0.888|22|
