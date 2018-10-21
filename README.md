@@ -1,5 +1,15 @@
-## ml-arsenal
+# ml-arsenal
 Full pipeline of a data science competition
+## Dependencies
+tensorflow-gpu
+torch
+torchvision
+tensorboard
+Pillow
+opencv-python
+pandas
+numpy
+
 
 Current projects:
 
