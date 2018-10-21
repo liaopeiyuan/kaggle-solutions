@@ -7,7 +7,4 @@ Pillow
 opencv-python
 pandas
 matplotlib
-torch
-torchvision
-tensorflow-gpu
-tensorboard
+numpy
