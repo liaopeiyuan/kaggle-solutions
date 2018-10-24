@@ -16,6 +16,7 @@ Full pipeline of a data science competition
 1. [TGS Salt Identification Challenge](https://www.kaggle.com/c/tgs-salt-identification-challenge/leaderboard)
 - Placement: **5/3291** (Gold Medal)
 - [Solution Journal](https://www.kaggle.com/c/tgs-salt-identification-challenge/discussion/69051)
+- [Kaggle TGS 盐体分割任务第五名解决方案](https://zhuanlan.zhihu.com/p/47412338)
 - **Model Performances:**
 
 |model|#fold|#models|public LB|private LB|placement|
