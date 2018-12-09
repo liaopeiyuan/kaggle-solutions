@@ -10,6 +10,11 @@ Full pipeline of a data science competition
 - pandas
 - numpy
 
+## Past Collaborators
+
+TGS: Renan @scherzocrk, Ding Han @DhDiego 
+
+Doodle: Venn @wangvenn, SeuTao @SeuTao, earhian @earhian, Tom57 @ThomasTilli, CHAN, wilan @wilanw, Andi Leslie Yan @RedLiN5
 
 ## Current projects:
 
@@ -32,3 +37,7 @@ Full pipeline of a data science competition
 |SE-ResNeXt-50-OC-256-post|10|95|0.881|0.892|9|
 |ResNet34-256|10|60|0.875|0.894|8|
 |2models-2scale-stable-post|10|100|0.885|0.894|5|
+
+2. [Quick, Draw! Doodle Recognition Challenge](https://www.kaggle.com/c/quickdraw-doodle-recognition/leaderboard)
+- Placement: **12/1316** (Gold Medal)
+- [Solution Journal](https://www.kaggle.com/c/quickdraw-doodle-recognition/discussion/73710)
