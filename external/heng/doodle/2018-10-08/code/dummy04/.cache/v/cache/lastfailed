@@ -1,0 +1,6 @@
+{
+  "predict_128_joint.py::test_augment_flip": true,
+  "predict_128_joint.py::test_augment_null": true,
+  "predict_128_joint.py::test_unaugment_flip": true,
+  "predict_128_joint.py::test_unaugment_null": true
+}

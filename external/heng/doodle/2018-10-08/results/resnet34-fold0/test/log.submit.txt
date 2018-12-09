@@ -1,0 +1,22 @@
+
+--- [START 2018-10-08_19-32-47] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /root/share/project/kaggle/google_doodle/delivery/dummy04
+	out_test_dir = /root/share/project/kaggle/google_doodle/results/resnet34-fold0/test
+
+** dataset setting **
+test_dataset : 
+	split        = <NIL>
+	mode         = test
+	complexity   = simplified
+	len(self.id) = 112199
+
+
+
+** net setting **
+<class 'model32_resnet34.Net'>
+
+
+	checkpoint = /root/share/project/kaggle/google_doodle/results/resnet34-fold0/checkpoint/00004000_model.pth
+

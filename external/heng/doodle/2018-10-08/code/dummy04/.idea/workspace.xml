@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06ea9623-0897-450a-a6e0-c800b10d8ddc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.7296849">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="local_submit.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resnet32/local_submit.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="267">
+                  <caret line="201" column="43" lean-forward="true" selection-start-line="201" selection-start-column="43" selection-end-line="201" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="todo" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/todo">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="model32_resnet34.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resnet32/model32_resnet34.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1212">
+                  <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#0#20#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="data_process.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/process/data_process.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="89">
+                  <caret line="166" column="10" lean-forward="true" selection-start-line="166" selection-start-column="10" selection-end-line="166" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="37">
+                  <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resnet32/train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="104">
+                  <caret line="132" column="17" lean-forward="true" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_make_layer</find>
+      <find>layer</find>
+      <find>image.shape[:2]</find>
+      <find />
+      <find>0.45</find>
+      <find>makedi</find>
+      <find>makedir</find>
+      <find>maked</find>
+      <find>mak</find>
+      <find>run_local_leaderboard</find>
+      <find>write</find>
+      <find>overlay</find>
+      <find>csv</find>
+      <find>loc</find>
+      <find>mask_ty</find>
+      <find>criterion</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>image.shape[-2:]</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dpn/train_pad128_dpn.py" />
+        <option value="$PROJECT_DIR$/joint_all/train128_resnext50_non_empty_baseline.py" />
+        <option value="$PROJECT_DIR$/explore-mosaics-2.ipynb" />
+        <option value="$PROJECT_DIR$/deep_supervised/local_submit.py" />
+        <option value="$PROJECT_DIR$/deep_supervised/local_submit_pad128.py" />
+        <option value="$PROJECT_DIR$/joint_all/model128_resnext50_all.py" />
+        <option value="$PROJECT_DIR$/joint_all/train128_resnext50_deep_supervised.py" />
+        <option value="$PROJECT_DIR$/joint_all/model128_resnext50_2.py" />
+        <option value="$PROJECT_DIR$/joint_all/model128_resnext50_1.py" />
+        <option value="$PROJECT_DIR$/deep_supervised_more/model128_resnext101_deep_supervised_more.py" />
+        <option value="$PROJECT_DIR$/deep_supervised_more/model128_resnext50_deep_supervised_more.py" />
+        <option value="$PROJECT_DIR$/joint_all/train128_resnext50_deep_supervised_more.py" />
+        <option value="$PROJECT_DIR$/deep_supervised_more/train128_resnext50_deep_supervised_more_gpu2.py" />
+        <option value="$PROJECT_DIR$/deep_supervised_more/train128_resnext50_deep_supervised_more.py" />
+        <option value="$PROJECT_DIR$/deep_supervised_more/local_submit.py" />
+        <option value="$PROJECT_DIR$/deep_supervised_more/train128_resnext50_deep_supervised_more_gpu3.py" />
+        <option value="$PROJECT_DIR$/deep_supervised_more/train128_resnext101_deep_supervised_more.py" />
+        <option value="$PROJECT_DIR$/pesudo/run.py" />
+        <option value="$PROJECT_DIR$/pesudo/model128_resnext50_deep_supervised.py" />
+        <option value="$PROJECT_DIR$/pesudo/train128_pesudo.py" />
+        <option value="$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo.py" />
+        <option value="$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_gpu1.py" />
+        <option value="$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_gpu3.py" />
+        <option value="$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_gpu0.py" />
+        <option value="$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_resize_gpu2.py" />
+        <option value="$PROJECT_DIR$/pesudo/local_submit.py" />
+        <option value="$PROJECT_DIR$/pesudo/kaggle_submit.py" />
+        <option value="$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_gpu2.py" />
+        <option value="$PROJECT_DIR$/pesudo/train128_deep_supervised_more_pesudo_gpu2.py" />
+        <option value="$PROJECT_DIR$/pesudo/train128_deep_supervised_more_pesudo_101_gpu3.py" />
+        <option value="$PROJECT_DIR$/run_xx.py" />
+        <option value="$PROJECT_DIR$/run_xx1.py" />
+        <option value="$PROJECT_DIR$/data_process.py" />
+        <option value="$PROJECT_DIR$/__temp__/reference_wide_resnet.py" />
+        <option value="$PROJECT_DIR$/wide_resnet/model32_wide_resnet.py" />
+        <option value="$PROJECT_DIR$/resnext/model32_resnext50.py" />
+        <option value="$PROJECT_DIR$/process/data_process1.py" />
+        <option value="$PROJECT_DIR$/resnext/train32_resnext50.py" />
+        <option value="$PROJECT_DIR$/resnext/model32_resnext50_1.py" />
+        <option value="$PROJECT_DIR$/resnext_1/train32_resnext50.py" />
+        <option value="$PROJECT_DIR$/resnext_1/local_submit.py" />
+        <option value="$PROJECT_DIR$/resnext64/model_resnext50_1.py" />
+        <option value="$PROJECT_DIR$/resnext64/train_resnext50.py" />
+        <option value="$PROJECT_DIR$/resnext64/local_submit.py" />
+        <option value="$PROJECT_DIR$/common.py" />
+        <option value="$PROJECT_DIR$/resnet32/train.py" />
+        <option value="$PROJECT_DIR$/todo" />
+        <option value="$PROJECT_DIR$/process/data_process.py" />
+        <option value="$PROJECT_DIR$/data.py" />
+        <option value="$PROJECT_DIR$/resnet32/model32_resnet34.py" />
+        <option value="$PROJECT_DIR$/resnet32/local_submit.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="67" />
+    <option name="y" value="24" />
+    <option name="width" value="1353" />
+    <option name="height" value="909" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="google" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dummy04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="google" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dummy04" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="google" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dummy04" type="462c0819:PsiDirectoryNode" />
+              <item name="resnet32" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resnet32/local_submit.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myShowDebugConsoleByDefault" value="true" />
+    <option name="myIpythonEnabled" value="false" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySupportQtDebugging" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resnext_1" />
+      <recent name="$PROJECT_DIR$/resnext" />
+      <recent name="$PROJECT_DIR$/process" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pesudo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.local_submit64">
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="google" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="data_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="google" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/process" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/data_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="local_submit64" type="PythonConfigurationType" factoryName="Python">
+      <module name="google" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resnet32" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resnet32/local_submit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="model32_resnet34" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="google" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resnet32" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resnet32/model32_resnet34.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="google" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resnet32" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resnet32/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="tgs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="tgs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="tgs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="tgs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="tgs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="tgs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.local_submit64" />
+      <item itemvalue="Python.data" />
+      <item itemvalue="Python.data_process" />
+      <item itemvalue="Python.model32_resnet34" />
+      <item itemvalue="Python.train" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.model32_resnet34" />
+        <item itemvalue="Python.data" />
+        <item itemvalue="Python.data_process" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06ea9623-0897-450a-a6e0-c800b10d8ddc" name="Default" comment="" />
+      <created>1537600655618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537600655618</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_for_local_submit_resize128_test_fold - 2018.09.29 at 23h 01m 30s.xml">
+      <configuration name="py.test for local_submit_resize128.test_fold" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_local_submit_pad128_joint_all_raw_py - 2018.09.27 at 17h 24m 50s.xml">
+      <configuration name="py.test in local_submit_pad128_joint_all_raw.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_local_submit_pad128_py - 2018.10.01 at 15h 01m 49s.xml">
+      <configuration name="py.test in local_submit_pad128.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_local_submit_py - 2018.10.01 at 14h 53m 14s.xml">
+      <configuration name="py.test in local_submit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_local_submit_py - 2018.10.02 at 16h 11m 24s.xml">
+      <configuration name="py.test in local_submit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_local_submit_py - 2018.10.02 at 18h 37m 41s.xml">
+      <configuration name="py.test in local_submit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_local_submit_resize128_joint_all_py - 2018.09.26 at 18h 52m 28s.xml">
+      <configuration name="py.test in local_submit_resize128_joint_all.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_local_submit_resize128_joint_all_py - 2018.09.28 at 00h 51m 35s.xml">
+      <configuration name="py.test in local_submit_resize128_joint_all.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_local_submit_py - 2018.10.08 at 16h 00m 45s.xml">
+      <configuration name="py.test in local_submit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_local_submit_py - 2018.10.08 at 19h 31m 43s.xml">
+      <configuration name="py.test in local_submit.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="24" width="1353" height="909" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.093233086" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3298969" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6576923" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.2693299" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32920793" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint/model128_resnet34_joint.py</url>
+          <line>299</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint/model128_dpn68_joint.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_1/model256_resnet34_joint.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_1/train256_joint.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/octnet/model128_resnet34_4.py</url>
+          <line>305</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_1/model128_resnet34_joint_deep_supervision.py</url>
+          <line>276</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_1/model128_resnet34_joint_deep_supervision.py</url>
+          <line>352</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/octnet/model128_resnet34_4a.py</url>
+          <line>303</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/octnet/model128_resnet34_4a.py</url>
+          <line>302</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_1/train128_joint_1.py</url>
+          <line>235</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/auto_encoder/model128_resnet34_auto_encoder.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/auto_encoder/train128_auto_encoder.py</url>
+          <line>394</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_3/train128_joint.py</url>
+          <line>480</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/etc/kaggle_submit_joint.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_all/model128_resnet34_all_r9.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/etc/kaggle_submit.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/etc/local_submit_pad128_joint_all.py</url>
+          <line>185</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_all/model128_resnext50_all.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/etc/local_submit_resize128_joint_all.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/context/model128_resnet34_context.py</url>
+          <line>268</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/context/model128_resnet34_context.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_all/model128_resnext101_all.py</url>
+          <line>283</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jigsaw/neighbour.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jigsaw/neighbour.py</url>
+          <line>210</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jigsaw/neighbour.py</url>
+          <line>200</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jigsaw/run0.py</url>
+          <line>330</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jigsaw/run0.py</url>
+          <line>329</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jigsaw/run0.py</url>
+          <line>327</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dpn/model128_dpn92.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dpn/model128_dpn92_1.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_supervised/local_submit.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_supervised/local_submit.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_supervised/local_submit.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_all/model128_resnext50_1.py</url>
+          <line>371</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_all/train128_resnext50_deep_supervised_more.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_all/model128_resnext50_2.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/joint_all/model128_resnext50_1.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_supervised_more/local_submit.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_supervised_more/local_submit.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/__temp__/reference_wide_resnet.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/resnext64/local_submit.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/resnet32/model32_resnet34.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="156" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/deep_supervised_more/model128_resnext50_deep_supervised_more.py" />
+    <entry file="file://$PROJECT_DIR$/joint_all/train128_resnext50_deep_supervised_more.py" />
+    <entry file="file://$PROJECT_DIR$/deep_supervised/local_submit_pad128.py" />
+    <entry file="file://$PROJECT_DIR$/deep_supervised/local_submit.py" />
+    <entry file="file://$PROJECT_DIR$/deep_supervised_more/local_submit.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/run.py" />
+    <entry file="file://$PROJECT_DIR$/deep_supervised_more/train128_resnext50_deep_supervised_more.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_gpu1.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_resize_gpu2.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/local_submit.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/kaggle_submit.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_gpu3.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_gpu0.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/model128_resnext50_deep_supervised_more.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/train128_deep_supervised_pesudo_gpu2.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/train128_deep_supervised_more_pesudo_gpu2.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/model128_resnext101_deep_supervised_more.py" />
+    <entry file="file://$PROJECT_DIR$/deep_supervised_more/train128_resnext101_deep_supervised_more.py" />
+    <entry file="file://$PROJECT_DIR$/deep_supervised_more/model128_resnext101_deep_supervised_more.py" />
+    <entry file="file://$PROJECT_DIR$/deep_supervised_more/train128_resnext50_deep_supervised_more_gpu3.py" />
+    <entry file="file://$PROJECT_DIR$/deep_supervised_more/train128_resnext50_deep_supervised_more_gpu2.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/model128_resnext50_deep_supervised.py" />
+    <entry file="file://$PROJECT_DIR$/pesudo/train128_deep_supervised_more_pesudo_101_gpu3.py" />
+    <entry file="file:///opt/anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_xx.py" />
+    <entry file="file://$PROJECT_DIR$/run_xx1.py" />
+    <entry file="file://$PROJECT_DIR$/data_process.py" />
+    <entry file="file://$PROJECT_DIR$/submit.py" />
+    <entry file="file:///opt/anaconda3/lib/python3.6/site-packages/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/997149317/torch/_C/__init__/_TensorBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="2472" column="57" selection-start-line="2472" selection-start-column="23" selection-end-line="2472" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/anaconda3/lib/python3.6/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="1441" column="19" selection-start-line="1441" selection-start-column="11" selection-end-line="1441" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/anaconda3/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="850" column="4" selection-start-line="850" selection-start-column="4" selection-end-line="850" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wide_resnet/model32_wide_resnet.py" />
+    <entry file="file://$PROJECT_DIR$/__temp__/reference_wide_resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnext64/model32_resnext50.py" />
+    <entry file="file://$PROJECT_DIR$/resnext64/model_resnext50_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1494">
+          <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/data_process1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="176" column="38" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnext64/train_resnext50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnext64/local_submit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="955">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/imagenet_pretrain_model/dpn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/imagenet_pretrain_model/se_resnext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/imagenet_pretrain_model/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/data_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="166" column="10" lean-forward="true" selection-start-line="166" selection-start-column="10" selection-end-line="166" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnet32/model32_resnet34.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1212">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnet32/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="132" column="17" lean-forward="true" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnet32/local_submit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="201" column="43" lean-forward="true" selection-start-line="201" selection-start-column="43" selection-end-line="201" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
