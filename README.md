@@ -13,6 +13,7 @@ Full pipeline of a data science competition
 ## Past Collaborators
 
 TGS: Renan @scherzocrk, Ding Han @DhDiego 
+Doodle: Venn @wangvenn, SeuTao @SeuTao, earhian @earhian, Tom57 @ThomasTilli, CHAN, wilan @wilanw, Andi Leslie Yan @RedLiN5
 
 ## Current projects:
 
