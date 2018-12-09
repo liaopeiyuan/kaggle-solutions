@@ -10,6 +10,9 @@ Full pipeline of a data science competition
 - pandas
 - numpy
 
+## Past Collaborators
+
+TGS: Renan @scherzocrk, Ding Han @DhDiego 
 
 ## Current projects:
 
