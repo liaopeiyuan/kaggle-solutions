@@ -1,0 +1,10 @@
+*.csv
+*.gz
+*.swp
+*.p
+*-36.pyc
+*.pth
+*.zip
+*.png
+__pycache__
+.ipynb_checkpoints
