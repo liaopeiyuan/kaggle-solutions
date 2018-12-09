@@ -1,3 +1,0 @@
-[submodule "external/external/albumentations"]
-	path = external/external/albumentations
-	url = https://github.com/albu/albumentations
