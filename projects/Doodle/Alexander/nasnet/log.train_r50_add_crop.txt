@@ -1,0 +1,621 @@
+
+--- [START 2018-11-19_18-13-11] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 704
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f2b7b0ab2f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=482954.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-19_18-20-18] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 512
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fa25b10c2f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=664062.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-19_18-30-34] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 340
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fc9d2c082f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1000000.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-19_18-37-42] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f2a49f712f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1328125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-19_18-52-44] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7efd3f2172f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1328125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-19_19-01-34] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 192
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f2d851af2f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1770833.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-19_19-09-58] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 208
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f34c549e2f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1634615.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-19_19-19-16] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 224
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fa7cbce02f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1517857.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-19_19-53-26] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 512
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f887296a2f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=664062.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100   2.5    0.0 | 1.431  0.653  0.829  (0.732)   | 1.889  0.573  0.763  (0.658)  |  1 hr 09 min
+0.0100   5.0    0.1 | 1.175  0.715  0.870  (0.786)   | 1.425  0.674  0.842  (0.750)  |  2 hr 18 min
+0.0100   7.5    0.1 | 1.071  0.737  0.885  (0.805)   | 1.302  0.699  0.858  (0.771)  |  3 hr 26 min
+0.0100  10.0    0.2 | 1.014  0.754  0.893  (0.818)*  | 1.214  0.720  0.869  (0.788)  |  4 hr 33 min
+0.0100  12.5    0.2 | 0.971  0.762  0.899  (0.825)   | 1.156  0.734  0.872  (0.797)  |  5 hr 41 min
+0.0100  15.0    0.2 | 0.945  0.769  0.903  (0.830)   | 1.112  0.740  0.885  (0.806)  |  6 hr 48 min
+0.0100  17.5    0.3 | 0.921  0.770  0.905  (0.832)   | 1.118  0.745  0.882  (0.807)  |  7 hr 56 min
+0.0100  20.0    0.3 | 0.898  0.775  0.910  (0.837)*  | 1.050  0.754  0.892  (0.818)  |  9 hr 04 min
+0.0100  22.5    0.3 | 0.885  0.780  0.910  (0.840)   | 1.008  0.758  0.897  (0.821)  | 10 hr 11 min
+0.0100  25.0    0.4 | 0.869  0.783  0.914  (0.843)   | 1.008  0.757  0.895  (0.820)  | 11 hr 19 min
+0.0100  27.5    0.4 | 0.857  0.784  0.913  (0.843)   | 0.979  0.770  0.905  (0.832)  | 12 hr 26 min
+0.0100  30.0    0.5 | 0.836  0.790  0.917  (0.848)*  | 0.949  0.771  0.903  (0.832)  | 13 hr 34 min
+0.0100  32.5    0.5 | 0.828  0.791  0.917  (0.849)   | 0.947  0.771  0.904  (0.832)  | 14 hr 41 min
+0.0100  35.0    0.5 | 0.822  0.793  0.918  (0.850)   | 0.951  0.776  0.902  (0.834)  | 15 hr 49 min
+0.0100  37.5    0.6 | 0.814  0.793  0.919  (0.851)   | 0.910  0.778  0.911  (0.839)  | 16 hr 56 min
+0.0100  40.0    0.6 | 0.804  0.796  0.921  (0.853)*  | 0.912  0.779  0.908  (0.838)  | 18 hr 05 min
+0.0100  42.5    0.6 | 0.799  0.797  0.922  (0.855)   | 0.881  0.784  0.913  (0.843)  | 19 hr 14 min
+0.0100  45.0    0.7 | 0.793  0.798  0.923  (0.855)   | 0.887  0.783  0.912  (0.842)  | 20 hr 22 min
+0.0100  47.5    0.7 | 0.789  0.799  0.923  (0.856)   | 0.891  0.779  0.909  (0.839)  | 21 hr 31 min
+0.0100  50.0    0.8 | 0.781  0.800  0.926  (0.858)*  | 0.881  0.787  0.909  (0.843)  | 22 hr 39 min
+0.0100  52.5    0.8 | 0.778  0.801  0.924  (0.858)   | 0.892  0.785  0.908  (0.841)  | 23 hr 48 min
+0.0100  55.0    0.8 | 0.779  0.799  0.926  (0.857)   | 0.873  0.790  0.912  (0.846)  | 24 hr 57 min
+0.0100  57.5    0.9 | 0.767  0.803  0.926  (0.860)   | 0.856  0.796  0.915  (0.850)  | 26 hr 05 min
+0.0100  60.0    0.9 | 0.764  0.803  0.927  (0.860)*  | 0.864  0.788  0.918  (0.848)  | 27 hr 14 min
+0.0100  62.5    0.9 | 0.764  0.803  0.926  (0.860)   | 0.885  0.784  0.912  (0.843)  | 28 hr 23 min
+0.0100  65.0    1.0 | 0.769  0.802  0.924  (0.859)   | 0.839  0.791  0.916  (0.849)  | 29 hr 30 min
+0.0100  67.5    1.0 | 0.754  0.807  0.928  (0.863)   | 0.855  0.786  0.916  (0.846)  | 30 hr 38 min
+0.0100  70.0    1.1 | 0.763  0.803  0.926  (0.860)*  | 0.865  0.788  0.915  (0.847)  | 31 hr 46 min
+0.0100  72.5    1.1 | 0.764  0.803  0.927  (0.860)   | 0.833  0.791  0.918  (0.850)  | 32 hr 54 min
+0.0100  75.0    1.1 | 0.761  0.804  0.927  (0.861)   | 0.830  0.794  0.918  (0.851)  | 34 hr 02 min
+0.0100  77.5    1.2 | 0.757  0.804  0.927  (0.861)   | 0.848  0.789  0.917  (0.848)  | 35 hr 10 min
+0.0100  80.0    1.2 | 0.749  0.805  0.928  (0.862)*  | 0.817  0.794  0.921  (0.853)  | 36 hr 18 min
+0.0100  82.5    1.2 | 0.747  0.806  0.928  (0.862)   | 0.802  0.796  0.920  (0.854)  | 37 hr 25 min
+0.0100  85.0    1.3 | 0.745  0.808  0.930  (0.864)   | 0.850  0.787  0.914  (0.846)  | 38 hr 33 min
+0.0100  87.5    1.3 | 0.743  0.807  0.929  (0.864)   | 0.822  0.794  0.920  (0.852)  | 39 hr 41 min
+0.0100  90.0    1.4 | 0.745  0.805  0.929  (0.863)*  | 0.829  0.789  0.916  (0.848)  | 40 hr 50 min
+0.0100  92.5    1.4 | 0.739  0.807  0.930  (0.864)   | 0.825  0.794  0.916  (0.850)  | 41 hr 58 min
+0.0100  95.0    1.4 | 0.744  0.806  0.929  (0.863)   | 0.820  0.791  0.919  (0.851)  | 43 hr 06 min
+0.0100  97.5    1.5 | 0.740  0.807  0.929  (0.864)   | 0.819  0.795  0.919  (0.852)  | 44 hr 15 min
+0.0100 100.0    1.5 | 0.746  0.806  0.928  (0.862)*  | 0.802  0.797  0.923  (0.855)  | 45 hr 23 min
+0.0100 102.5    1.5 | 0.731  0.811  0.932  (0.867)   | 0.816  0.800  0.919  (0.855)  | 46 hr 31 min
+0.0100 105.0    1.6 | 0.735  0.807  0.930  (0.864)   | 0.783  0.797  0.927  (0.857)  | 47 hr 39 min
+0.0100 107.5    1.6 | 0.734  0.809  0.931  (0.865)   | 0.834  0.790  0.920  (0.850)  | 48 hr 47 min
+0.0100 110.0    1.7 | 0.734  0.810  0.929  (0.865)*  | 0.813  0.793  0.921  (0.853)  | 49 hr 54 min
+0.0100 112.5    1.7 | 0.731  0.809  0.931  (0.865)   | 0.792  0.799  0.923  (0.856)  | 51 hr 02 min
+
+--- [START 2018-11-21_23-20-27] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-21_23-25-29] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 384
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = ../../nasnet/checkpoint/00112000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f7a79b55d08>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=885416.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-21_23-34-17] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 384
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = ../../nasnet/checkpoint/00112000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fe1a2bdad08>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=885416.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-21_23-42-44] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = ../../nasnet/checkpoint/00112000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f875b0d0d08>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-21_23-51-28] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../nasnet
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = ../../nasnet/checkpoint/00112000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f8adae56d08>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1328125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100 112.5    0.0 | 0.845  0.781  0.918  (0.844)   | 0.970  0.764  0.898  (0.826)  |  0 hr 17 min
+0.0100 115.0    0.0 | 0.790  0.796  0.925  (0.856)   | 0.878  0.778  0.914  (0.840)  |  1 hr 22 min
+0.0100 117.5    0.0 | 0.787  0.797  0.927  (0.856)   | 0.889  0.771  0.910  (0.835)  |  2 hr 27 min
+0.0100 120.0    0.1 | 0.776  0.800  0.929  (0.859)*  | 0.910  0.770  0.908  (0.834)  |  3 hr 32 min
+0.0100 122.5    0.1 | 0.760  0.805  0.929  (0.862)   | 0.835  0.788  0.924  (0.851)  |  4 hr 36 min
+0.0100 125.0    0.1 | 0.761  0.805  0.929  (0.862)   | 0.829  0.789  0.921  (0.850)  |  5 hr 41 min
+0.0100 127.5    0.1 | 0.745  0.807  0.931  (0.864)   | 0.850  0.786  0.913  (0.845)  |  6 hr 45 min
+0.0100 130.0    0.1 | 0.743  0.809  0.930  (0.865)*  | 0.846  0.786  0.913  (0.845)  |  7 hr 50 min
+0.0100 132.5    0.2 | 0.736  0.807  0.932  (0.865)   | 0.827  0.798  0.923  (0.856)  |  8 hr 54 min
+0.0100 135.0    0.2 | 0.741  0.808  0.930  (0.864)   | 0.836  0.793  0.921  (0.852)  |  9 hr 59 min
+0.0100 137.5    0.2 | 0.738  0.807  0.932  (0.865)   | 0.843  0.786  0.919  (0.847)  | 11 hr 03 min
+0.0100 140.0    0.2 | 0.735  0.810  0.932  (0.866)*  | 0.812  0.800  0.925  (0.857)  | 12 hr 08 min
+0.0100 142.5    0.2 | 0.734  0.812  0.932  (0.867)   | 0.796  0.798  0.927  (0.857)  | 13 hr 12 min
+0.0100 145.0    0.2 | 0.736  0.810  0.932  (0.866)   | 0.798  0.793  0.923  (0.853)  | 14 hr 17 min
+0.0100 147.5    0.3 | 0.728  0.810  0.932  (0.867)   | 0.810  0.801  0.922  (0.856)  | 15 hr 21 min
+0.0100 150.0    0.3 | 0.731  0.811  0.932  (0.867)*  | 0.805  0.802  0.922  (0.857)  | 16 hr 26 min
+0.0100 152.5    0.3 | 0.727  0.810  0.932  (0.866)   | 0.841  0.788  0.918  (0.847)  | 17 hr 30 min
+0.0100 155.0    0.3 | 0.732  0.810  0.932  (0.866)   | 0.821  0.796  0.917  (0.851)  | 18 hr 34 min
+0.0100 157.5    0.3 | 0.723  0.814  0.933  (0.869)   | 0.782  0.806  0.925  (0.861)  | 19 hr 39 min
+0.0100 160.0    0.4 | 0.726  0.813  0.933  (0.868)*  | 0.787  0.798  0.928  (0.857)  | 20 hr 43 min
+0.0100 162.5    0.4 | 0.716  0.816  0.935  (0.871)   | 0.818  0.794  0.920  (0.852)  | 21 hr 48 min
+0.0100 165.0    0.4 | 0.716  0.813  0.934  (0.869)   | 0.809  0.795  0.922  (0.854)  | 22 hr 52 min
+0.0100 167.5    0.4 | 0.713  0.813  0.934  (0.869)   | 0.794  0.798  0.922  (0.856)  | 23 hr 56 min
+0.0100 170.0    0.4 | 0.720  0.814  0.934  (0.869)*  | 0.778  0.801  0.926  (0.859)  | 25 hr 01 min
+0.0100 172.5    0.5 | 0.722  0.813  0.932  (0.868)   | 0.807  0.798  0.923  (0.856)  | 26 hr 05 min
+0.0100 175.0    0.5 | 0.716  0.814  0.933  (0.869)   | 0.776  0.806  0.923  (0.861)  | 27 hr 10 min
+0.0100 177.5    0.5 | 0.714  0.815  0.933  (0.869)   | 0.777  0.799  0.923  (0.857)  | 28 hr 14 min
+0.0100 180.0    0.5 | 0.716  0.816  0.934  (0.871)*  | 0.777  0.801  0.928  (0.860)  | 29 hr 18 min
+0.0100 182.5    0.5 | 0.726  0.811  0.934  (0.868)   | 0.822  0.792  0.920  (0.851)  | 30 hr 23 min
+0.0100 185.0    0.5 | 0.716  0.814  0.934  (0.869)   | 0.774  0.799  0.928  (0.858)  | 31 hr 27 min
+0.0100 187.5    0.6 | 0.710  0.815  0.933  (0.870)   | 0.799  0.799  0.922  (0.855)  | 32 hr 31 min
+0.0100 190.0    0.6 | 0.715  0.815  0.934  (0.870)*  | 0.757  0.805  0.925  (0.860)  | 33 hr 36 min
+0.0100 192.5    0.6 | 0.721  0.812  0.933  (0.868)   | 0.805  0.796  0.922  (0.854)  | 34 hr 40 min
+0.0100 195.0    0.6 | 0.710  0.816  0.935  (0.871)   | 0.787  0.799  0.922  (0.855)  | 35 hr 44 min
+0.0100 197.5    0.6 | 0.716  0.815  0.932  (0.869)   | 0.815  0.793  0.921  (0.852)  | 36 hr 49 min
+0.0100 200.0    0.7 | 0.709  0.814  0.933  (0.869)*  | 0.776  0.805  0.927  (0.861)  | 37 hr 53 min
+0.0100 202.5    0.7 | 0.716  0.814  0.935  (0.870)   | 0.754  0.811  0.927  (0.865)  | 38 hr 57 min
+0.0100 205.0    0.7 | 0.720  0.812  0.934  (0.868)   | 0.783  0.799  0.925  (0.857)  | 40 hr 02 min
+0.0100 207.5    0.7 | 0.707  0.816  0.936  (0.871)   | 0.798  0.800  0.921  (0.856)  | 41 hr 06 min
+0.0100 210.0    0.7 | 0.723  0.811  0.933  (0.867)*  | 0.747  0.813  0.932  (0.867)  | 42 hr 10 min

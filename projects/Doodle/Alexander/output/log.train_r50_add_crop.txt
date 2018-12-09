@@ -1,0 +1,3599 @@
+
+--- [START 2018-11-14_15-37-47] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-14_15-37-47] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-14_15-37-47] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-14_15-45-11] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-14_15-45-45] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-14_15-45-45] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-14_15-45-45] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-14_16-06-06] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-14_16-07-08] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = ../../output/backup/873_crop.pth
+
+--- [START 2018-11-14_16-07-08] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f648c4e20d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f648c4e20d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_16-20-07] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f80762870d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_16-20-07] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f80762870d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=66406.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_16-20-07] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+
+--- [START 2018-11-14_16-40-13] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f6cd1ffe048>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=66406.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_16-49-15] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fef9df51048>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_16-50-18] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7ff34385e0d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_16-51-46] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f2523f080d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_16-51-46] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f2523f080d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_16-51-46] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f2523f080d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_17-04-04] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f85633320d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_17-07-17] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f05866e4048>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010   0.1    0.0 | 5.831  0.003  0.011  (0.006)   | 5.861  0.003  0.008  (0.005)  |  0 hr 02 min
+0.0010   0.2    0.0 | 5.822  0.004  0.012  (0.008)   | 5.848  0.003  0.010  (0.006)  |  0 hr 04 min
+
+--- [START 2018-11-14_17-12-56] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7ff04604a0d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010   0.1    0.0 | 5.831  0.003  0.010  (0.006)   | 5.860  0.003  0.009  (0.005)  |  0 hr 02 min
+0.0010   0.2    0.0 | 5.823  0.004  0.011  (0.007)   | 5.853  0.003  0.008  (0.005)  |  0 hr 04 min
+
+--- [START 2018-11-14_17-18-07] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f99eb9fd048>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=53125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010   0.1    0.0 | 5.829  0.004  0.011  (0.007)   | 5.861  0.003  0.009  (0.005)  |  0 hr 01 min
+
+--- [START 2018-11-14_17-20-57] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f72f418a0d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=265625.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-14_17-22-44] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f6fd7e9f0d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=265625.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010   0.1    0.0 | 5.827  0.004  0.011  (0.007)   | 5.860  0.004  0.009  (0.006)  |  0 hr 01 min
+0.0010   0.2    0.0 | 5.816  0.005  0.013  (0.008)   | 5.838  0.003  0.011  (0.007)  |  0 hr 02 min
+0.0010   0.3    0.0 | 5.805  0.007  0.019  (0.012)   | 5.836  0.003  0.010  (0.006)  |  0 hr 04 min
+0.0010   0.4    0.0 | 5.793  0.012  0.028  (0.019)   | 5.823  0.004  0.013  (0.008)  |  0 hr 05 min
+
+--- [START 2018-11-14_17-28-48] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7ff7f8799048>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=265625.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010   0.5    0.0 | 5.783  0.017  0.038  (0.026)   | 5.810  0.004  0.011  (0.007)  |  0 hr 05 min
+0.0010   1.0    0.0 | 5.555  0.060  0.122  (0.087)   | 5.673  0.012  0.028  (0.019)  |  0 hr 10 min
+0.0010   1.5    0.1 | 4.663  0.156  0.262  (0.202)   | 5.159  0.038  0.075  (0.054)  |  0 hr 16 min
+0.0010   2.0    0.1 | 3.683  0.276  0.440  (0.348)*  | 4.354  0.110  0.192  (0.145)  |  0 hr 21 min
+0.0010   2.5    0.1 | 2.892  0.389  0.588  (0.476)   | 3.801  0.123  0.210  (0.161)  |  0 hr 26 min
+0.0010   3.0    0.1 | 2.406  0.466  0.676  (0.559)   | 3.426  0.199  0.313  (0.248)  |  0 hr 32 min
+0.0010   3.5    0.1 | 2.093  0.526  0.731  (0.617)   | 3.264  0.165  0.259  (0.207)  |  0 hr 37 min
+0.0010   4.0    0.2 | 1.849  0.571  0.767  (0.659)*  | 2.608  0.181  0.265  (0.218)  |  0 hr 42 min
+0.0010   4.5    0.2 | 1.712  0.598  0.791  (0.685)   | 2.910  0.258  0.377  (0.310)  |  0 hr 48 min
+0.0010   5.0    0.2 | 1.622  0.619  0.806  (0.703)   | 2.646  0.229  0.328  (0.273)  |  0 hr 53 min
+0.0010   5.5    0.2 | 1.514  0.640  0.820  (0.721)   | 2.341  0.303  0.421  (0.356)  |  0 hr 58 min
+0.0010   6.0    0.2 | 1.504  0.650  0.830  (0.731)*  | 2.313  0.325  0.433  (0.374)  |  1 hr 04 min
+0.0010   6.5    0.2 | 1.421  0.665  0.839  (0.744)   | 2.370  0.234  0.320  (0.273)  |  1 hr 09 min
+
+--- [START 2018-11-14_19-08-33] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f01588a00d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=265625.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100   0.5    0.0 | 2.042  0.539  0.745  (0.631)   | 3.107  0.215  0.324  (0.263)  |  0 hr 05 min
+0.0100   1.0    0.0 | 1.436  0.655  0.836  (0.737)   | 2.363  0.245  0.337  (0.286)  |  0 hr 10 min
+0.0100   1.5    0.1 | 1.290  0.691  0.858  (0.766)   | 2.403  0.260  0.344  (0.298)  |  0 hr 16 min
+0.0100   2.0    0.1 | 1.205  0.705  0.868  (0.780)*  | 2.055  0.383  0.485  (0.429)  |  0 hr 21 min
+0.0100   2.5    0.1 | 1.145  0.720  0.879  (0.793)   | 2.089  0.303  0.384  (0.340)  |  0 hr 26 min
+
+--- [START 2018-11-14_19-38-25] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/ml-arsenal/projects/Doodle/Venn/code
+	__file__     = 25k_mixup
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_seresnext50.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fe9b1629048>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=265625.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100   0.5    0.0 | 2.026  0.536  0.747  (0.631)   | 3.083  0.214  0.325  (0.262)  |  0 hr 05 min
+0.0100   1.0    0.0 | 1.441  0.653  0.837  (0.736)   | 2.364  0.244  0.341  (0.287)  |  0 hr 10 min
+0.0100   1.5    0.1 | 1.294  0.688  0.858  (0.765)   | 2.396  0.264  0.346  (0.301)  |  0 hr 16 min
+0.0100   2.0    0.1 | 1.194  0.708  0.873  (0.783)*  | 2.064  0.380  0.489  (0.429)  |  0 hr 21 min
+0.0100   2.5    0.1 | 1.145  0.721  0.879  (0.793)   | 2.096  0.298  0.383  (0.336)  |  0 hr 26 min
+0.0100   3.0    0.1 | 1.140  0.729  0.882  (0.799)   | 2.077  0.368  0.472  (0.415)  |  0 hr 32 min
+0.0100   3.5    0.1 | 1.102  0.740  0.889  (0.808)   | 2.165  0.293  0.371  (0.328)  |  0 hr 37 min
+0.0100   4.0    0.2 | 1.042  0.741  0.891  (0.810)*  | 1.614  0.273  0.337  (0.302)  |  0 hr 42 min
+0.0100   4.5    0.2 | 1.008  0.747  0.895  (0.815)   | 2.069  0.371  0.474  (0.417)  |  0 hr 47 min
+0.0100   5.0    0.2 | 1.035  0.750  0.896  (0.817)   | 1.921  0.322  0.403  (0.358)  |  0 hr 53 min
+0.0100   5.5    0.2 | 0.987  0.754  0.898  (0.820)   | 1.670  0.402  0.487  (0.440)  |  0 hr 58 min
+0.0100   6.0    0.2 | 1.028  0.753  0.898  (0.820)*  | 1.724  0.399  0.490  (0.440)  |  1 hr 03 min
+0.0100   6.5    0.2 | 0.974  0.759  0.902  (0.824)   | 1.826  0.291  0.359  (0.322)  |  1 hr 09 min
+0.0100   7.0    0.3 | 0.970  0.761  0.901  (0.825)   | 1.560  0.315  0.391  (0.349)  |  1 hr 14 min
+0.0100   7.5    0.3 | 0.976  0.762  0.902  (0.827)   | 1.556  0.348  0.427  (0.384)  |  1 hr 19 min
+0.0100   8.0    0.3 | 0.966  0.765  0.903  (0.828)*  | 1.713  0.321  0.391  (0.353)  |  1 hr 25 min
+0.0100   8.5    0.3 | 0.956  0.766  0.905  (0.830)   | 1.601  0.331  0.403  (0.364)  |  1 hr 30 min
+0.0100   9.0    0.3 | 0.928  0.766  0.907  (0.831)   | 1.577  0.321  0.392  (0.353)  |  1 hr 35 min
+0.0100   9.5    0.4 | 0.927  0.770  0.908  (0.833)   | 1.516  0.295  0.360  (0.325)  |  1 hr 41 min
+0.0100  10.0    0.4 | 0.920  0.773  0.909  (0.835)*  | 1.956  0.278  0.346  (0.308)  |  1 hr 46 min
+0.0100  10.5    0.4 | 0.916  0.772  0.909  (0.835)   | 1.679  0.380  0.459  (0.416)  |  1 hr 51 min
+0.0100  11.0    0.4 | 0.898  0.776  0.910  (0.837)   | 1.643  0.399  0.485  (0.438)  |  1 hr 57 min
+0.0100  11.5    0.4 | 0.900  0.773  0.911  (0.836)   | 1.956  0.333  0.417  (0.371)  |  2 hr 02 min
+0.0100  12.0    0.5 | 0.913  0.774  0.910  (0.836)*  | 1.849  0.392  0.480  (0.432)  |  2 hr 07 min
+0.0100  12.5    0.5 | 0.892  0.777  0.910  (0.838)   | 1.764  0.423  0.521  (0.467)  |  2 hr 12 min
+0.0100  13.0    0.5 | 0.894  0.779  0.912  (0.840)   | 1.739  0.214  0.278  (0.243)  |  2 hr 18 min
+
+--- [START 2018-11-16_15-45-29] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet161.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fadb3652268>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=39843.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-16_15-56-13] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet161.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fb5a6ff3268>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=49804.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-16_16-00-49] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f04f1823268>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=49804.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-16_16-08-24] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f8aca270268>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=49804.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-16_16-11-40] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 192
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f8a58498268>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=66406.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100   0.5    0.0 | 1.980  0.540  0.756  (0.637)   | 3.057  0.212  0.327  (0.262)  |  0 hr 03 min
+0.0100   1.0    0.0 | 1.594  0.622  0.819  (0.710)   | 2.556  0.205  0.316  (0.255)  |  0 hr 06 min
+0.0100   1.5    0.0 | 1.498  0.650  0.835  (0.733)   | 2.660  0.217  0.310  (0.259)  |  0 hr 09 min
+0.0100   2.0    0.0 | 1.367  0.666  0.848  (0.749)*  | 2.274  0.326  0.454  (0.383)  |  0 hr 13 min
+0.0100   2.5    0.1 | 1.325  0.684  0.855  (0.762)   | 2.249  0.264  0.365  (0.309)  |  0 hr 16 min
+0.0100   3.0    0.1 | 1.284  0.692  0.864  (0.770)   | 2.247  0.346  0.452  (0.393)  |  0 hr 19 min
+0.0100   3.5    0.1 | 1.271  0.696  0.868  (0.774)   | 2.373  0.264  0.359  (0.306)  |  0 hr 22 min
+0.0100   4.0    0.1 | 1.196  0.699  0.870  (0.777)*  | 1.790  0.245  0.329  (0.282)  |  0 hr 26 min
+0.0100   4.5    0.1 | 1.161  0.708  0.874  (0.784)   | 2.200  0.347  0.460  (0.397)  |  0 hr 29 min
+0.0100   5.0    0.1 | 1.200  0.709  0.874  (0.784)   | 2.104  0.288  0.377  (0.329)  |  0 hr 32 min
+0.0100   5.5    0.1 | 1.129  0.719  0.880  (0.792)   | 1.893  0.364  0.466  (0.410)  |  0 hr 35 min
+0.0100   6.0    0.1 | 1.156  0.717  0.881  (0.791)*  | 1.936  0.370  0.470  (0.415)  |  0 hr 38 min
+0.0100   6.5    0.1 | 1.125  0.721  0.881  (0.794)   | 2.032  0.265  0.349  (0.303)  |  0 hr 42 min
+0.0100   7.0    0.2 | 1.131  0.722  0.882  (0.795)   | 1.863  0.285  0.368  (0.322)  |  0 hr 45 min
+0.0100   7.5    0.2 | 1.114  0.726  0.886  (0.799)   | 1.727  0.328  0.417  (0.368)  |  0 hr 48 min
+0.0100   8.0    0.2 | 1.101  0.728  0.886  (0.800)*  | 1.936  0.293  0.379  (0.332)  |  0 hr 51 min
+0.0100   8.5    0.2 | 1.087  0.732  0.889  (0.804)   | 1.744  0.322  0.405  (0.359)  |  0 hr 55 min
+0.0100   9.0    0.2 | 1.060  0.731  0.889  (0.803)   | 1.814  0.295  0.384  (0.335)  |  0 hr 58 min
+0.0100   9.5    0.2 | 1.062  0.735  0.891  (0.806)   | 1.744  0.273  0.347  (0.307)  |  1 hr 01 min
+0.0100  10.0    0.2 | 1.070  0.734  0.892  (0.806)*  | 2.144  0.256  0.338  (0.292)  |  1 hr 04 min
+0.0100  10.5    0.2 | 1.047  0.738  0.892  (0.808)   | 1.866  0.347  0.440  (0.389)  |  1 hr 08 min
+0.0100  11.0    0.2 | 1.048  0.737  0.892  (0.807)   | 1.809  0.377  0.474  (0.421)  |  1 hr 11 min
+0.0100  11.5    0.3 | 1.030  0.737  0.892  (0.808)   | 2.060  0.314  0.409  (0.357)  |  1 hr 14 min
+0.0100  12.0    0.3 | 1.036  0.741  0.894  (0.811)*  | 2.103  0.348  0.451  (0.395)  |  1 hr 17 min
+
+--- [START 2018-11-16_17-34-10] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 192
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f838f8df378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=66406.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-16_17-35-19] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f1862e98378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=39843.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-16_17-38-38] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fc2f2f4b378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=49804.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-16_18-10-48] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 192
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fdf3d8ea378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=66406.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100   0.5    0.0 | 1.810  0.554  0.768  (0.650)   | 2.338  0.453  0.661  (0.545)  |  0 hr 03 min
+0.0100   1.0    0.0 | 1.490  0.629  0.819  (0.715)   | 1.845  0.550  0.769  (0.648)  |  0 hr 06 min
+0.0100   1.5    0.0 | 1.343  0.659  0.845  (0.744)   | 1.721  0.584  0.784  (0.674)  |  0 hr 09 min
+0.0100   2.0    0.0 | 1.319  0.666  0.848  (0.748)*  | 1.639  0.593  0.791  (0.681)  |  0 hr 11 min
+0.0100   2.5    0.1 | 1.240  0.688  0.861  (0.767)   | 1.588  0.606  0.811  (0.699)  |  0 hr 14 min
+0.0100   3.0    0.1 | 1.198  0.692  0.866  (0.771)   | 1.440  0.647  0.829  (0.729)  |  0 hr 17 min
+0.0100   3.5    0.1 | 1.186  0.700  0.868  (0.776)   | 1.424  0.641  0.834  (0.728)  |  0 hr 20 min
+0.0100   4.0    0.1 | 1.159  0.703  0.873  (0.780)*  | 1.374  0.651  0.840  (0.737)  |  0 hr 23 min
+0.0100   4.5    0.1 | 1.132  0.712  0.876  (0.787)   | 1.383  0.668  0.839  (0.745)  |  0 hr 26 min
+0.0100   5.0    0.1 | 1.131  0.710  0.877  (0.786)   | 1.351  0.671  0.848  (0.752)  |  0 hr 29 min
+0.0100   5.5    0.1 | 1.122  0.713  0.879  (0.789)   | 1.381  0.665  0.846  (0.748)  |  0 hr 32 min
+0.0100   6.0    0.1 | 1.086  0.723  0.884  (0.796)*  | 1.319  0.665  0.847  (0.747)  |  0 hr 35 min
+0.0100   6.5    0.1 | 1.076  0.722  0.883  (0.795)   | 1.333  0.669  0.848  (0.750)  |  0 hr 38 min
+0.0100   7.0    0.2 | 1.082  0.723  0.883  (0.797)   | 1.359  0.666  0.844  (0.747)  |  0 hr 41 min
+0.0100   7.5    0.2 | 1.067  0.726  0.886  (0.799)   | 1.271  0.685  0.853  (0.762)  |  0 hr 44 min
+0.0100   8.0    0.2 | 1.051  0.732  0.888  (0.803)*  | 1.309  0.681  0.854  (0.760)  |  0 hr 47 min
+0.0100   8.5    0.2 | 1.040  0.732  0.890  (0.804)   | 1.212  0.701  0.864  (0.775)  |  0 hr 50 min
+0.0100   9.0    0.2 | 1.024  0.737  0.891  (0.807)   | 1.269  0.701  0.859  (0.772)  |  0 hr 53 min
+0.0100   9.5    0.2 | 1.024  0.737  0.893  (0.808)   | 1.262  0.691  0.865  (0.770)  |  0 hr 56 min
+0.0100  10.0    0.2 | 1.021  0.734  0.892  (0.807)*  | 1.244  0.695  0.861  (0.771)  |  0 hr 59 min
+0.0100  10.5    0.2 | 1.026  0.737  0.890  (0.807)   | 1.229  0.704  0.863  (0.776)  |  1 hr 02 min
+0.0100  11.0    0.2 | 1.005  0.740  0.894  (0.810)   | 1.153  0.714  0.877  (0.789)  |  1 hr 05 min
+0.0100  11.5    0.3 | 0.999  0.745  0.895  (0.814)   | 1.116  0.722  0.882  (0.795)  |  1 hr 08 min
+0.0100  12.0    0.3 | 0.998  0.744  0.896  (0.813)*  | 1.255  0.686  0.863  (0.766)  |  1 hr 11 min
+0.0100  12.5    0.3 | 0.996  0.741  0.897  (0.813)   | 1.172  0.702  0.873  (0.781)  |  1 hr 14 min
+0.0100  13.0    0.3 | 0.975  0.748  0.899  (0.817)   | 1.155  0.706  0.879  (0.785)  |  1 hr 17 min
+0.0100  13.5    0.3 | 0.974  0.746  0.900  (0.817)   | 1.207  0.710  0.870  (0.784)  |  1 hr 20 min
+0.0100  14.0    0.3 | 0.989  0.747  0.899  (0.816)*  | 1.154  0.707  0.879  (0.786)  |  1 hr 23 min
+0.0100  14.5    0.3 | 0.975  0.750  0.901  (0.819)   | 1.129  0.714  0.876  (0.788)  |  1 hr 26 min
+0.0100  15.0    0.3 | 0.965  0.749  0.901  (0.819)   | 1.164  0.700  0.875  (0.780)  |  1 hr 29 min
+0.0100  15.5    0.4 | 0.968  0.749  0.900  (0.818)   | 1.148  0.717  0.881  (0.792)  |  1 hr 32 min
+0.0100  16.0    0.4 | 0.955  0.754  0.902  (0.822)*  | 1.182  0.716  0.873  (0.788)  |  1 hr 35 min
+0.0100  16.5    0.4 | 0.965  0.751  0.901  (0.820)   | 1.147  0.717  0.873  (0.787)  |  1 hr 38 min
+0.0100  17.0    0.4 | 0.953  0.753  0.903  (0.822)   | 1.142  0.718  0.875  (0.789)  |  1 hr 41 min
+0.0100  17.5    0.4 | 0.948  0.754  0.903  (0.822)   | 1.143  0.721  0.877  (0.792)  |  1 hr 44 min
+0.0100  18.0    0.4 | 0.939  0.758  0.905  (0.826)*  | 1.135  0.721  0.875  (0.791)  |  1 hr 47 min
+0.0100  18.5    0.4 | 0.946  0.757  0.905  (0.824)   | 1.096  0.714  0.882  (0.790)  |  1 hr 50 min
+0.0100  19.0    0.4 | 0.946  0.757  0.902  (0.823)   | 1.116  0.722  0.879  (0.794)  |  1 hr 52 min
+0.0100  19.5    0.4 | 0.950  0.754  0.902  (0.822)   | 1.131  0.710  0.872  (0.785)  |  1 hr 55 min
+0.0100  20.0    0.5 | 0.944  0.755  0.904  (0.823)*  | 1.166  0.714  0.870  (0.786)  |  1 hr 58 min
+0.0100  20.5    0.5 | 0.936  0.758  0.905  (0.826)   | 1.124  0.723  0.878  (0.794)  |  2 hr 01 min
+0.0100  21.0    0.5 | 0.926  0.758  0.907  (0.827)   | 1.079  0.722  0.888  (0.797)  |  2 hr 04 min
+0.0100  21.5    0.5 | 0.917  0.762  0.907  (0.829)   | 1.057  0.740  0.892  (0.808)  |  2 hr 07 min
+0.0100  22.0    0.5 | 0.946  0.753  0.903  (0.822)*  | 1.079  0.731  0.886  (0.801)  |  2 hr 10 min
+0.0100  22.5    0.5 | 0.924  0.758  0.906  (0.826)   | 1.096  0.723  0.884  (0.796)  |  2 hr 13 min
+0.0100  23.0    0.5 | 0.923  0.763  0.905  (0.828)   | 1.129  0.711  0.880  (0.789)  |  2 hr 16 min
+0.0100  23.5    0.5 | 0.910  0.763  0.908  (0.829)   | 1.068  0.737  0.891  (0.807)  |  2 hr 19 min
+0.0100  24.0    0.5 | 0.920  0.762  0.907  (0.828)*  | 1.080  0.730  0.888  (0.802)  |  2 hr 22 min
+0.0100  24.5    0.6 | 0.919  0.762  0.906  (0.828)   | 1.151  0.720  0.879  (0.793)  |  2 hr 25 min
+0.0100  25.0    0.6 | 0.916  0.761  0.907  (0.828)   | 1.130  0.722  0.879  (0.794)  |  2 hr 28 min
+0.0100  25.5    0.6 | 0.920  0.762  0.907  (0.829)   | 1.098  0.740  0.886  (0.807)  |  2 hr 31 min
+0.0100  26.0    0.6 | 0.900  0.766  0.910  (0.832)*  | 1.093  0.728  0.888  (0.802)  |  2 hr 34 min
+0.0100  26.5    0.6 | 0.915  0.763  0.907  (0.829)   | 1.056  0.738  0.886  (0.806)  |  2 hr 37 min
+0.0100  27.0    0.6 | 0.903  0.768  0.908  (0.832)   | 1.049  0.743  0.882  (0.807)  |  2 hr 40 min
+0.0100  27.5    0.6 | 0.908  0.766  0.908  (0.831)   | 1.085  0.732  0.885  (0.802)  |  2 hr 43 min
+0.0100  28.0    0.6 | 0.908  0.765  0.909  (0.831)*  | 1.093  0.736  0.888  (0.806)  |  2 hr 46 min
+0.0100  28.5    0.6 | 0.901  0.767  0.909  (0.832)   | 1.046  0.739  0.886  (0.806)  |  2 hr 49 min
+0.0100  29.0    0.7 | 0.905  0.765  0.909  (0.831)   | 1.022  0.737  0.888  (0.806)  |  2 hr 52 min
+0.0100  29.5    0.7 | 0.896  0.767  0.911  (0.833)   | 1.064  0.730  0.885  (0.800)  |  2 hr 55 min
+0.0100  30.0    0.7 | 0.904  0.766  0.909  (0.832)*  | 1.041  0.740  0.893  (0.809)  |  2 hr 58 min
+0.0100  30.5    0.7 | 0.897  0.768  0.909  (0.833)   | 1.044  0.736  0.896  (0.808)  |  3 hr 01 min
+0.0100  31.0    0.7 | 0.897  0.767  0.910  (0.833)   | 0.984  0.751  0.892  (0.816)  |  3 hr 04 min
+0.0100  31.5    0.7 | 0.890  0.769  0.910  (0.834)   | 1.020  0.741  0.893  (0.810)  |  3 hr 07 min
+0.0100  32.0    0.7 | 0.889  0.770  0.912  (0.836)*  | 1.084  0.734  0.883  (0.802)  |  3 hr 10 min
+0.0100  32.5    0.7 | 0.882  0.770  0.911  (0.835)   | 1.054  0.732  0.887  (0.803)  |  3 hr 13 min
+0.0100  33.0    0.7 | 0.893  0.769  0.910  (0.834)   | 1.015  0.748  0.892  (0.813)  |  3 hr 16 min
+0.0100  33.5    0.8 | 0.894  0.769  0.911  (0.835)   | 1.023  0.748  0.891  (0.814)  |  3 hr 19 min
+0.0100  34.0    0.8 | 0.888  0.768  0.911  (0.834)*  | 1.046  0.739  0.890  (0.808)  |  3 hr 22 min
+0.0100  34.5    0.8 | 0.889  0.770  0.911  (0.835)   | 0.994  0.751  0.895  (0.817)  |  3 hr 25 min
+0.0100  35.0    0.8 | 0.887  0.771  0.911  (0.835)   | 1.060  0.731  0.888  (0.803)  |  3 hr 28 min
+0.0100  35.5    0.8 | 0.888  0.771  0.911  (0.835)   | 0.979  0.755  0.898  (0.820)  |  3 hr 31 min
+0.0100  36.0    0.8 | 0.885  0.772  0.911  (0.836)*  | 1.012  0.749  0.898  (0.817)  |  3 hr 34 min
+0.0100  36.5    0.8 | 0.889  0.771  0.910  (0.835)   | 1.001  0.742  0.896  (0.813)  |  3 hr 37 min
+0.0100  37.0    0.8 | 0.888  0.770  0.911  (0.835)   | 1.038  0.736  0.894  (0.808)  |  3 hr 39 min
+0.0100  37.5    0.8 | 0.886  0.771  0.911  (0.836)   | 1.057  0.732  0.888  (0.803)  |  3 hr 42 min
+0.0100  38.0    0.9 | 0.884  0.771  0.910  (0.835)*  | 1.069  0.740  0.890  (0.810)  |  3 hr 45 min
+0.0100  38.5    0.9 | 0.873  0.773  0.912  (0.837)   | 1.017  0.736  0.888  (0.805)  |  3 hr 48 min
+0.0100  39.0    0.9 | 0.881  0.773  0.913  (0.837)   | 1.018  0.747  0.896  (0.816)  |  3 hr 51 min
+0.0100  39.5    0.9 | 0.870  0.776  0.912  (0.839)   | 1.056  0.739  0.884  (0.806)  |  3 hr 54 min
+0.0100  40.0    0.9 | 0.871  0.774  0.913  (0.838)*  | 1.011  0.740  0.892  (0.810)  |  3 hr 57 min
+0.0100  40.5    0.9 | 0.875  0.774  0.912  (0.837)   | 1.012  0.749  0.895  (0.816)  |  4 hr 00 min
+0.0100  41.0    0.9 | 0.871  0.775  0.912  (0.838)   | 1.037  0.746  0.889  (0.812)  |  4 hr 03 min
+0.0100  41.5    0.9 | 0.865  0.775  0.913  (0.838)   | 0.968  0.747  0.896  (0.816)  |  4 hr 06 min
+0.0100  42.0    0.9 | 0.870  0.775  0.913  (0.839)*  | 0.985  0.746  0.897  (0.815)  |  4 hr 09 min
+0.0100  42.5    1.0 | 0.871  0.776  0.912  (0.839)   | 1.033  0.742  0.895  (0.811)  |  4 hr 12 min
+0.0100  43.0    1.0 | 0.866  0.777  0.914  (0.840)   | 0.983  0.754  0.901  (0.821)  |  4 hr 15 min
+0.0100  43.5    1.0 | 0.862  0.779  0.914  (0.841)   | 0.953  0.760  0.897  (0.822)  |  4 hr 18 min
+0.0100  44.0    1.0 | 0.872  0.777  0.913  (0.839)*  | 1.019  0.750  0.897  (0.817)  |  4 hr 21 min
+0.0100  44.5    1.0 | 0.872  0.774  0.913  (0.838)   | 1.035  0.745  0.889  (0.810)  |  4 hr 24 min
+0.0100  45.0    1.0 | 0.871  0.774  0.912  (0.837)   | 0.994  0.747  0.893  (0.814)  |  4 hr 27 min
+0.0100  45.5    1.0 | 0.879  0.772  0.914  (0.837)   | 0.943  0.754  0.905  (0.824)  |  4 hr 30 min
+0.0100  46.0    1.0 | 0.866  0.778  0.913  (0.840)*  | 0.975  0.762  0.901  (0.826)  |  4 hr 33 min
+0.0100  46.5    1.1 | 0.865  0.776  0.914  (0.839)   | 0.951  0.749  0.902  (0.820)  |  4 hr 36 min
+0.0100  47.0    1.1 | 0.870  0.774  0.914  (0.839)   | 0.979  0.754  0.900  (0.821)  |  4 hr 39 min
+0.0100  47.5    1.1 | 0.861  0.779  0.915  (0.841)   | 0.957  0.752  0.906  (0.823)  |  4 hr 42 min
+0.0100  48.0    1.1 | 0.866  0.776  0.913  (0.839)*  | 1.000  0.747  0.898  (0.816)  |  4 hr 45 min
+0.0100  48.5    1.1 | 0.857  0.781  0.915  (0.843)   | 1.022  0.752  0.897  (0.818)  |  4 hr 48 min
+0.0100  49.0    1.1 | 0.868  0.774  0.913  (0.838)   | 1.004  0.746  0.894  (0.814)  |  4 hr 51 min
+0.0100  49.5    1.1 | 0.862  0.778  0.915  (0.841)   | 0.950  0.757  0.900  (0.822)  |  4 hr 54 min
+0.0100  50.0    1.1 | 0.859  0.775  0.915  (0.840)*  | 1.004  0.749  0.893  (0.814)  |  4 hr 57 min
+0.0100  50.5    1.1 | 0.859  0.777  0.914  (0.840)   | 1.047  0.737  0.891  (0.807)  |  5 hr 00 min
+0.0100  51.0    1.2 | 0.855  0.780  0.915  (0.842)   | 0.930  0.759  0.903  (0.825)  |  5 hr 03 min
+0.0100  51.5    1.2 | 0.860  0.777  0.914  (0.840)   | 1.018  0.750  0.896  (0.817)  |  5 hr 06 min
+0.0100  52.0    1.2 | 0.866  0.777  0.915  (0.840)*  | 1.034  0.740  0.890  (0.809)  |  5 hr 09 min
+0.0100  52.5    1.2 | 0.861  0.777  0.915  (0.841)   | 0.962  0.755  0.903  (0.823)  |  5 hr 12 min
+0.0100  53.0    1.2 | 0.864  0.776  0.915  (0.840)   | 0.941  0.764  0.902  (0.827)  |  5 hr 15 min
+0.0100  53.5    1.2 | 0.855  0.777  0.916  (0.841)   | 0.994  0.747  0.896  (0.815)  |  5 hr 18 min
+0.0100  54.0    1.2 | 0.858  0.779  0.914  (0.841)*  | 0.959  0.762  0.902  (0.825)  |  5 hr 21 min
+0.0100  54.5    1.2 | 0.853  0.779  0.915  (0.842)   | 0.992  0.755  0.895  (0.820)  |  5 hr 24 min
+0.0100  55.0    1.2 | 0.851  0.780  0.916  (0.842)   | 1.063  0.742  0.889  (0.809)  |  5 hr 27 min
+0.0100  55.5    1.3 | 0.868  0.774  0.913  (0.838)   | 1.006  0.759  0.894  (0.821)  |  5 hr 30 min
+0.0100  56.0    1.3 | 0.853  0.779  0.917  (0.842)*  | 0.959  0.763  0.906  (0.829)  |  5 hr 33 min
+0.0100  56.5    1.3 | 0.868  0.776  0.914  (0.840)   | 0.936  0.756  0.903  (0.823)  |  5 hr 35 min
+0.0100  57.0    1.3 | 0.847  0.782  0.916  (0.844)   | 0.977  0.755  0.895  (0.818)  |  5 hr 38 min
+0.0100  57.5    1.3 | 0.860  0.778  0.914  (0.841)   | 0.969  0.759  0.901  (0.824)  |  5 hr 41 min
+0.0100  58.0    1.3 | 0.854  0.781  0.915  (0.843)*  | 0.972  0.758  0.903  (0.824)  |  5 hr 44 min
+0.0100  58.5    1.3 | 0.848  0.781  0.915  (0.843)   | 0.939  0.763  0.898  (0.825)  |  5 hr 47 min
+0.0100  59.0    1.3 | 0.851  0.782  0.917  (0.844)   | 0.975  0.752  0.902  (0.822)  |  5 hr 50 min
+0.0100  59.5    1.3 | 0.840  0.783  0.916  (0.844)   | 0.945  0.765  0.907  (0.830)  |  5 hr 53 min
+0.0100  60.0    1.4 | 0.842  0.783  0.917  (0.844)*  | 1.009  0.746  0.898  (0.815)  |  5 hr 56 min
+0.0100  60.5    1.4 | 0.851  0.778  0.915  (0.841)   | 0.999  0.752  0.894  (0.817)  |  5 hr 59 min
+0.0100  61.0    1.4 | 0.854  0.777  0.915  (0.841)   | 0.929  0.763  0.903  (0.827)  |  6 hr 02 min
+0.0100  61.5    1.4 | 0.839  0.782  0.915  (0.844)   | 0.949  0.760  0.902  (0.825)  |  6 hr 05 min
+0.0100  62.0    1.4 | 0.844  0.782  0.916  (0.844)*  | 0.993  0.758  0.896  (0.821)  |  6 hr 08 min
+0.0100  62.5    1.4 | 0.849  0.778  0.915  (0.841)   | 0.932  0.767  0.907  (0.831)  |  6 hr 11 min
+0.0100  63.0    1.4 | 0.845  0.780  0.917  (0.843)   | 1.002  0.757  0.894  (0.820)  |  6 hr 14 min
+0.0100  63.5    1.4 | 0.844  0.781  0.917  (0.843)   | 0.922  0.774  0.907  (0.835)  |  6 hr 17 min
+0.0100  64.0    1.4 | 0.847  0.779  0.916  (0.842)*  | 0.957  0.766  0.901  (0.827)  |  6 hr 20 min
+0.0100  64.5    1.5 | 0.841  0.782  0.916  (0.844)   | 0.922  0.769  0.909  (0.833)  |  6 hr 23 min
+0.0100  65.0    1.5 | 0.841  0.782  0.916  (0.844)   | 1.005  0.756  0.897  (0.820)  |  6 hr 26 min
+0.0100  65.5    1.5 | 0.845  0.783  0.916  (0.844)   | 0.909  0.772  0.908  (0.835)  |  6 hr 29 min
+0.0100  66.0    1.5 | 0.847  0.780  0.915  (0.842)*  | 0.948  0.760  0.904  (0.825)  |  6 hr 32 min
+0.0010  66.5    1.5 | 0.814  0.791  0.919  (0.850)   | 0.961  0.760  0.900  (0.825)  |  6 hr 35 min
+0.0010  67.0    1.5 | 0.784  0.799  0.924  (0.856)   | 0.841  0.785  0.916  (0.845)  |  6 hr 38 min
+0.0010  67.5    1.5 | 0.776  0.800  0.924  (0.857)   | 0.898  0.777  0.913  (0.839)  |  6 hr 41 min
+0.0010  68.0    1.5 | 0.771  0.802  0.925  (0.859)*  | 0.899  0.776  0.906  (0.836)  |  6 hr 44 min
+0.0010  68.5    1.5 | 0.768  0.801  0.926  (0.859)   | 0.868  0.773  0.906  (0.834)  |  6 hr 47 min
+0.0010  69.0    1.6 | 0.765  0.803  0.926  (0.860)   | 0.919  0.780  0.903  (0.836)  |  6 hr 50 min
+0.0010  69.5    1.6 | 0.763  0.804  0.927  (0.861)   | 0.832  0.794  0.918  (0.852)  |  6 hr 53 min
+0.0010  70.0    1.6 | 0.760  0.804  0.927  (0.861)*  | 0.891  0.775  0.906  (0.835)  |  6 hr 56 min
+0.0010  70.5    1.6 | 0.758  0.804  0.927  (0.861)   | 0.866  0.782  0.913  (0.843)  |  6 hr 59 min
+0.0010  71.0    1.6 | 0.758  0.804  0.927  (0.861)   | 0.876  0.773  0.915  (0.839)  |  7 hr 02 min
+0.0010  71.5    1.6 | 0.755  0.806  0.927  (0.862)   | 0.867  0.780  0.912  (0.841)  |  7 hr 05 min
+0.0010  72.0    1.6 | 0.756  0.805  0.927  (0.862)*  | 0.829  0.797  0.919  (0.853)  |  7 hr 08 min
+0.0010  72.5    1.6 | 0.754  0.806  0.927  (0.862)   | 0.859  0.792  0.917  (0.849)  |  7 hr 11 min
+0.0010  73.0    1.6 | 0.752  0.807  0.927  (0.863)   | 0.908  0.770  0.911  (0.835)  |  7 hr 14 min
+0.0010  73.5    1.7 | 0.751  0.806  0.928  (0.862)   | 0.866  0.788  0.912  (0.845)  |  7 hr 17 min
+0.0010  74.0    1.7 | 0.752  0.807  0.927  (0.863)*  | 0.890  0.775  0.909  (0.836)  |  7 hr 20 min
+0.0010  74.5    1.7 | 0.748  0.806  0.928  (0.863)   | 0.836  0.787  0.909  (0.843)  |  7 hr 23 min
+0.0010  75.0    1.7 | 0.748  0.807  0.928  (0.863)   | 0.879  0.786  0.912  (0.844)  |  7 hr 25 min
+0.0010  75.5    1.7 | 0.749  0.806  0.927  (0.862)   | 0.850  0.786  0.920  (0.847)  |  7 hr 28 min
+0.0010  76.0    1.7 | 0.748  0.806  0.928  (0.862)*  | 0.855  0.789  0.915  (0.847)  |  7 hr 31 min
+0.0010  76.5    1.7 | 0.745  0.808  0.928  (0.863)   | 0.787  0.810  0.927  (0.864)  |  7 hr 34 min
+0.0010  77.0    1.7 | 0.746  0.807  0.929  (0.863)   | 0.865  0.779  0.913  (0.840)  |  7 hr 37 min
+0.0010  77.5    1.8 | 0.744  0.807  0.929  (0.863)   | 0.883  0.785  0.915  (0.844)  |  7 hr 40 min
+0.0010  78.0    1.8 | 0.744  0.808  0.929  (0.864)*  | 0.878  0.787  0.913  (0.844)  |  7 hr 43 min
+0.0010  78.5    1.8 | 0.744  0.807  0.929  (0.863)   | 0.816  0.790  0.917  (0.849)  |  7 hr 46 min
+0.0010  79.0    1.8 | 0.744  0.808  0.929  (0.864)   | 0.837  0.793  0.914  (0.848)  |  7 hr 49 min
+0.0010  79.5    1.8 | 0.742  0.808  0.930  (0.864)   | 0.826  0.792  0.917  (0.849)  |  7 hr 52 min
+0.0010  80.0    1.8 | 0.740  0.809  0.929  (0.864)*  | 0.823  0.796  0.917  (0.851)  |  7 hr 55 min
+0.0010  80.5    1.8 | 0.741  0.809  0.929  (0.864)   | 0.865  0.784  0.908  (0.841)  |  7 hr 58 min
+0.0010  81.0    1.8 | 0.742  0.808  0.929  (0.864)   | 0.811  0.793  0.921  (0.852)  |  8 hr 01 min
+0.0010  81.5    1.8 | 0.741  0.809  0.929  (0.864)   | 0.848  0.784  0.911  (0.843)  |  8 hr 04 min
+0.0010  82.0    1.9 | 0.740  0.808  0.929  (0.864)*  | 0.820  0.795  0.919  (0.852)  |  8 hr 07 min
+0.0010  82.5    1.9 | 0.742  0.809  0.929  (0.864)   | 0.854  0.785  0.915  (0.845)  |  8 hr 10 min
+0.0010  83.0    1.9 | 0.740  0.809  0.929  (0.865)   | 0.840  0.789  0.911  (0.845)  |  8 hr 13 min
+0.0010  83.5    1.9 | 0.739  0.810  0.930  (0.865)   | 0.824  0.796  0.915  (0.851)  |  8 hr 16 min
+0.0010  84.0    1.9 | 0.738  0.809  0.930  (0.865)*  | 0.817  0.792  0.922  (0.852)  |  8 hr 19 min
+0.0010  84.5    1.9 | 0.738  0.809  0.930  (0.865)   | 0.874  0.795  0.913  (0.849)  |  8 hr 22 min
+0.0010  85.0    1.9 | 0.739  0.809  0.930  (0.865)   | 0.869  0.786  0.909  (0.843)  |  8 hr 25 min
+0.0010  85.5    1.9 | 0.739  0.809  0.930  (0.865)   | 0.847  0.787  0.912  (0.844)  |  8 hr 28 min
+0.0010  86.0    1.9 | 0.738  0.808  0.930  (0.865)*  | 0.766  0.804  0.929  (0.862)  |  8 hr 31 min
+0.0010  86.5    2.0 | 0.737  0.809  0.929  (0.865)   | 0.798  0.800  0.920  (0.855)  |  8 hr 34 min
+0.0010  87.0    2.0 | 0.737  0.810  0.929  (0.865)   | 0.831  0.793  0.917  (0.850)  |  8 hr 37 min
+0.0010  87.5    2.0 | 0.736  0.809  0.930  (0.865)   | 0.798  0.803  0.922  (0.858)  |  8 hr 40 min
+0.0010  88.0    2.0 | 0.737  0.808  0.930  (0.865)*  | 0.787  0.801  0.918  (0.855)  |  8 hr 43 min
+0.0010  88.5    2.0 | 0.735  0.810  0.930  (0.866)   | 0.821  0.798  0.921  (0.855)  |  8 hr 46 min
+0.0010  89.0    2.0 | 0.735  0.809  0.929  (0.865)   | 0.777  0.806  0.922  (0.860)  |  8 hr 49 min
+0.0010  89.5    2.0 | 0.735  0.810  0.929  (0.865)   | 0.810  0.794  0.916  (0.850)  |  8 hr 52 min
+0.0010  90.0    2.0 | 0.736  0.810  0.930  (0.865)*  | 0.788  0.800  0.923  (0.857)  |  8 hr 55 min
+0.0010  90.5    2.0 | 0.735  0.809  0.930  (0.865)   | 0.801  0.789  0.918  (0.848)  |  8 hr 58 min
+0.0010  91.0    2.1 | 0.735  0.809  0.930  (0.865)   | 0.816  0.800  0.922  (0.856)  |  9 hr 01 min
+0.0010  91.5    2.1 | 0.733  0.810  0.930  (0.866)   | 0.845  0.788  0.912  (0.845)  |  9 hr 04 min
+0.0010  92.0    2.1 | 0.735  0.809  0.931  (0.865)*  | 0.779  0.797  0.923  (0.856)  |  9 hr 07 min
+0.0010  92.5    2.1 | 0.733  0.810  0.930  (0.865)   | 0.772  0.803  0.924  (0.859)  |  9 hr 10 min
+0.0010  93.0    2.1 | 0.734  0.809  0.930  (0.864)   | 0.842  0.796  0.916  (0.850)  |  9 hr 13 min
+0.0010  93.5    2.1 | 0.736  0.809  0.930  (0.865)   | 0.777  0.797  0.928  (0.857)  |  9 hr 16 min
+0.0010  94.0    2.1 | 0.735  0.809  0.930  (0.865)*  | 0.796  0.801  0.921  (0.857)  |  9 hr 18 min
+0.0010  94.5    2.1 | 0.734  0.811  0.930  (0.866)   | 0.847  0.798  0.917  (0.853)  |  9 hr 21 min
+0.0010  95.0    2.1 | 0.734  0.809  0.930  (0.865)   | 0.824  0.796  0.922  (0.854)  |  9 hr 24 min
+0.0010  95.5    2.2 | 0.733  0.810  0.930  (0.865)   | 0.793  0.791  0.921  (0.851)  |  9 hr 27 min
+0.0010  96.0    2.2 | 0.732  0.810  0.930  (0.865)*  | 0.774  0.799  0.923  (0.857)  |  9 hr 30 min
+0.0010  96.5    2.2 | 0.732  0.810  0.930  (0.866)   | 0.809  0.792  0.920  (0.851)  |  9 hr 33 min
+0.0010  97.0    2.2 | 0.732  0.810  0.930  (0.865)   | 0.781  0.792  0.919  (0.851)  |  9 hr 36 min
+0.0010  97.5    2.2 | 0.732  0.810  0.930  (0.866)   | 0.845  0.791  0.917  (0.849)  |  9 hr 39 min
+0.0010  98.0    2.2 | 0.731  0.811  0.931  (0.866)*  | 0.769  0.802  0.923  (0.858)  |  9 hr 42 min
+0.0010  98.5    2.2 | 0.731  0.811  0.930  (0.866)   | 0.855  0.793  0.916  (0.850)  |  9 hr 45 min
+0.0010  99.0    2.2 | 0.731  0.810  0.931  (0.866)   | 0.779  0.802  0.926  (0.858)  |  9 hr 48 min
+0.0010  99.5    2.2 | 0.732  0.811  0.930  (0.866)   | 0.802  0.801  0.920  (0.856)  |  9 hr 51 min
+0.0010 100.0    2.3 | 0.731  0.810  0.930  (0.866)*  | 0.793  0.800  0.921  (0.856)  |  9 hr 54 min
+0.0010 100.5    2.3 | 0.730  0.811  0.930  (0.866)   | 0.804  0.802  0.920  (0.856)  |  9 hr 57 min
+0.0010 101.0    2.3 | 0.730  0.811  0.930  (0.866)   | 0.778  0.804  0.925  (0.860)  | 10 hr 00 min
+0.0010 101.5    2.3 | 0.730  0.811  0.930  (0.866)   | 0.774  0.801  0.923  (0.857)  | 10 hr 03 min
+0.0010 102.0    2.3 | 0.730  0.811  0.931  (0.866)*  | 0.803  0.796  0.923  (0.854)  | 10 hr 06 min
+0.0010 102.5    2.3 | 0.729  0.810  0.931  (0.866)   | 0.829  0.790  0.918  (0.849)  | 10 hr 09 min
+0.0010 103.0    2.3 | 0.731  0.811  0.931  (0.866)   | 0.746  0.811  0.929  (0.865)  | 10 hr 12 min
+0.0010 103.5    2.3 | 0.729  0.811  0.931  (0.866)   | 0.809  0.795  0.917  (0.851)  | 10 hr 15 min
+0.0010 104.0    2.3 | 0.727  0.811  0.931  (0.866)*  | 0.849  0.791  0.915  (0.849)  | 10 hr 18 min
+0.0010 104.5    2.4 | 0.727  0.811  0.930  (0.866)   | 0.764  0.809  0.926  (0.863)  | 10 hr 21 min
+0.0010 105.0    2.4 | 0.726  0.811  0.931  (0.867)   | 0.734  0.812  0.932  (0.867)  | 10 hr 24 min
+0.0010 105.5    2.4 | 0.729  0.810  0.930  (0.866)   | 0.800  0.803  0.917  (0.855)  | 10 hr 27 min
+0.0010 106.0    2.4 | 0.728  0.810  0.931  (0.866)*  | 0.866  0.789  0.914  (0.847)  | 10 hr 30 min
+0.0010 106.5    2.4 | 0.727  0.812  0.930  (0.867)   | 0.785  0.800  0.922  (0.857)  | 10 hr 33 min
+0.0010 107.0    2.4 | 0.729  0.811  0.930  (0.866)   | 0.791  0.804  0.927  (0.859)  | 10 hr 36 min
+0.0010 107.5    2.4 | 0.727  0.812  0.932  (0.867)   | 0.812  0.804  0.917  (0.856)  | 10 hr 39 min
+0.0010 108.0    2.4 | 0.725  0.812  0.932  (0.868)*  | 0.800  0.798  0.923  (0.856)  | 10 hr 42 min
+0.0010 108.5    2.5 | 0.727  0.811  0.931  (0.867)   | 0.791  0.803  0.923  (0.858)  | 10 hr 45 min
+0.0010 109.0    2.5 | 0.726  0.812  0.930  (0.867)   | 0.782  0.795  0.924  (0.855)  | 10 hr 48 min
+0.0010 109.5    2.5 | 0.727  0.812  0.931  (0.867)   | 0.767  0.802  0.922  (0.857)  | 10 hr 51 min
+0.0010 110.0    2.5 | 0.727  0.811  0.931  (0.867)*  | 0.791  0.802  0.924  (0.858)  | 10 hr 54 min
+0.0010 110.5    2.5 | 0.727  0.811  0.930  (0.866)   | 0.795  0.801  0.922  (0.856)  | 10 hr 57 min
+0.0010 111.0    2.5 | 0.725  0.812  0.931  (0.867)   | 0.806  0.796  0.920  (0.853)  | 11 hr 00 min
+0.0010 111.5    2.5 | 0.725  0.813  0.931  (0.867)   | 0.794  0.804  0.921  (0.858)  | 11 hr 03 min
+0.0010 112.0    2.5 | 0.726  0.813  0.931  (0.867)*  | 0.829  0.791  0.919  (0.851)  | 11 hr 06 min
+0.0010 112.5    2.5 | 0.726  0.811  0.931  (0.867)   | 0.796  0.803  0.924  (0.860)  | 11 hr 08 min
+0.0010 113.0    2.6 | 0.724  0.813  0.931  (0.867)   | 0.784  0.804  0.920  (0.858)  | 11 hr 11 min
+0.0010 113.5    2.6 | 0.724  0.812  0.930  (0.867)   | 0.801  0.796  0.917  (0.852)  | 11 hr 14 min
+0.0010 114.0    2.6 | 0.725  0.811  0.930  (0.866)*  | 0.762  0.814  0.928  (0.866)  | 11 hr 17 min
+0.0010 114.5    2.6 | 0.723  0.812  0.931  (0.867)   | 0.836  0.794  0.917  (0.851)  | 11 hr 20 min
+0.0010 115.0    2.6 | 0.724  0.812  0.931  (0.867)   | 0.762  0.807  0.928  (0.862)  | 11 hr 23 min
+0.0010 115.5    2.6 | 0.725  0.812  0.931  (0.867)   | 0.807  0.801  0.921  (0.856)  | 11 hr 26 min
+0.0010 116.0    2.6 | 0.724  0.812  0.931  (0.867)*  | 0.766  0.808  0.925  (0.861)  | 11 hr 29 min
+0.0010 116.5    2.6 | 0.724  0.811  0.931  (0.867)   | 0.844  0.789  0.915  (0.847)  | 11 hr 32 min
+0.0010 117.0    2.6 | 0.724  0.813  0.932  (0.868)   | 0.794  0.814  0.923  (0.864)  | 11 hr 35 min
+0.0010 117.5    2.7 | 0.723  0.812  0.932  (0.868)   | 0.789  0.801  0.925  (0.858)  | 11 hr 38 min
+0.0010 118.0    2.7 | 0.726  0.811  0.931  (0.867)*  | 0.802  0.797  0.926  (0.857)  | 11 hr 41 min
+0.0010 118.5    2.7 | 0.725  0.812  0.932  (0.867)   | 0.816  0.796  0.918  (0.852)  | 11 hr 44 min
+0.0010 119.0    2.7 | 0.724  0.812  0.931  (0.867)   | 0.778  0.802  0.928  (0.860)  | 11 hr 47 min
+0.0010 119.5    2.7 | 0.724  0.812  0.931  (0.867)   | 0.785  0.805  0.927  (0.861)  | 11 hr 50 min
+0.0010 120.0    2.7 | 0.724  0.812  0.931  (0.867)*  | 0.772  0.804  0.924  (0.860)  | 11 hr 53 min
+0.0010 120.5    2.7 | 0.722  0.812  0.931  (0.867)   | 0.805  0.798  0.920  (0.854)  | 11 hr 56 min
+0.0010 121.0    2.7 | 0.722  0.812  0.931  (0.867)   | 0.803  0.802  0.923  (0.858)  | 11 hr 59 min
+0.0010 121.5    2.7 | 0.724  0.812  0.932  (0.867)   | 0.781  0.804  0.923  (0.858)  | 12 hr 02 min
+0.0010 122.0    2.8 | 0.723  0.813  0.931  (0.868)*  | 0.787  0.810  0.922  (0.862)  | 12 hr 05 min
+0.0010 122.5    2.8 | 0.725  0.812  0.931  (0.867)   | 0.831  0.799  0.915  (0.853)  | 12 hr 08 min
+0.0010 123.0    2.8 | 0.722  0.812  0.931  (0.867)   | 0.803  0.803  0.921  (0.857)  | 12 hr 11 min
+0.0010 123.5    2.8 | 0.722  0.813  0.932  (0.868)   | 0.755  0.806  0.926  (0.861)  | 12 hr 14 min
+0.0010 124.0    2.8 | 0.723  0.812  0.931  (0.867)*  | 0.805  0.793  0.917  (0.851)  | 12 hr 17 min
+0.0010 124.5    2.8 | 0.721  0.813  0.931  (0.868)   | 0.840  0.799  0.914  (0.851)  | 12 hr 20 min
+0.0010 125.0    2.8 | 0.723  0.811  0.931  (0.866)   | 0.796  0.801  0.922  (0.856)  | 12 hr 23 min
+0.0010 125.5    2.8 | 0.721  0.813  0.932  (0.868)   | 0.801  0.801  0.919  (0.856)  | 12 hr 26 min
+0.0010 126.0    2.8 | 0.722  0.812  0.931  (0.867)*  | 0.762  0.803  0.924  (0.859)  | 12 hr 29 min
+0.0010 126.5    2.9 | 0.720  0.814  0.932  (0.868)   | 0.822  0.789  0.916  (0.848)  | 12 hr 32 min
+0.0010 127.0    2.9 | 0.719  0.813  0.932  (0.868)   | 0.763  0.795  0.927  (0.856)  | 12 hr 35 min
+0.0010 127.5    2.9 | 0.720  0.813  0.931  (0.868)   | 0.772  0.808  0.925  (0.862)  | 12 hr 38 min
+0.0010 128.0    2.9 | 0.720  0.813  0.931  (0.868)*  | 0.791  0.801  0.917  (0.855)  | 12 hr 41 min
+0.0010 128.5    2.9 | 0.718  0.813  0.932  (0.868)   | 0.828  0.802  0.922  (0.857)  | 12 hr 44 min
+0.0010 129.0    2.9 | 0.719  0.814  0.932  (0.868)   | 0.773  0.797  0.923  (0.855)  | 12 hr 47 min
+0.0010 129.5    2.9 | 0.718  0.813  0.932  (0.868)   | 0.812  0.792  0.920  (0.851)  | 12 hr 50 min
+0.0010 130.0    2.9 | 0.720  0.813  0.931  (0.868)*  | 0.820  0.796  0.921  (0.854)  | 12 hr 53 min
+0.0010 130.5    2.9 | 0.718  0.813  0.932  (0.868)   | 0.796  0.803  0.920  (0.857)  | 12 hr 56 min
+0.0010 131.0    3.0 | 0.717  0.814  0.932  (0.869)   | 0.745  0.806  0.931  (0.864)  | 12 hr 58 min
+0.0010 131.5    3.0 | 0.718  0.814  0.932  (0.868)   | 0.764  0.811  0.920  (0.862)  | 13 hr 01 min
+0.0010 132.0    3.0 | 0.717  0.814  0.932  (0.869)*  | 0.800  0.797  0.920  (0.854)  | 13 hr 04 min
+0.0010 132.5    3.0 | 0.718  0.813  0.932  (0.868)   | 0.763  0.808  0.925  (0.862)  | 13 hr 07 min
+0.0001 133.0    3.0 | 0.716  0.814  0.932  (0.869)   | 0.783  0.807  0.920  (0.859)  | 13 hr 10 min
+0.0001 133.5    3.0 | 0.714  0.815  0.933  (0.869)   | 0.762  0.807  0.927  (0.862)  | 13 hr 13 min
+0.0001 134.0    3.0 | 0.713  0.815  0.933  (0.869)   | 0.760  0.811  0.924  (0.863)  | 13 hr 16 min
+0.0001 134.5    3.0 | 0.713  0.815  0.933  (0.870)   | 0.767  0.805  0.924  (0.860)  | 13 hr 19 min
+0.0001 135.0    3.0 | 0.712  0.815  0.933  (0.870)   | 0.760  0.805  0.926  (0.862)  | 13 hr 22 min
+0.0001 135.5    3.1 | 0.712  0.816  0.933  (0.870)   | 0.788  0.806  0.920  (0.859)  | 13 hr 25 min
+0.0001 136.0    3.1 | 0.712  0.815  0.933  (0.869)   | 0.746  0.805  0.931  (0.863)  | 13 hr 28 min
+0.0001 136.5    3.1 | 0.711  0.816  0.933  (0.870)   | 0.798  0.803  0.920  (0.857)  | 13 hr 31 min
+0.0001 137.0    3.1 | 0.712  0.815  0.933  (0.870)   | 0.752  0.814  0.928  (0.867)  | 13 hr 34 min
+0.0001 137.5    3.1 | 0.711  0.816  0.933  (0.870)   | 0.797  0.800  0.924  (0.857)  | 13 hr 37 min
+0.0001 138.0    3.1 | 0.710  0.816  0.933  (0.870)   | 0.785  0.805  0.927  (0.862)  | 13 hr 40 min
+0.0001 138.5    3.1 | 0.711  0.816  0.933  (0.870)   | 0.778  0.809  0.923  (0.861)  | 13 hr 43 min
+0.0001 139.0    3.1 | 0.710  0.815  0.933  (0.869)   | 0.755  0.808  0.928  (0.864)  | 13 hr 46 min
+0.0001 139.5    3.2 | 0.710  0.816  0.933  (0.870)   | 0.779  0.797  0.922  (0.856)  | 13 hr 49 min
+0.0001 140.0    3.2 | 0.711  0.815  0.933  (0.869)   | 0.810  0.799  0.918  (0.854)  | 13 hr 52 min
+0.0001 140.5    3.2 | 0.711  0.815  0.933  (0.870)   | 0.753  0.805  0.925  (0.861)  | 13 hr 55 min
+
+--- [START 2018-11-17_08-13-37] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 192
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 8500000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /data/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00132000_model.pth
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f02324da378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=66406.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010   0.5    0.0 | 0.721  0.813  0.931  (0.868)   | 0.833  0.791  0.915  (0.848)  |  0 hr 03 min
+0.0010   1.0    0.0 | 0.718  0.813  0.931  (0.868)   | 0.800  0.795  0.917  (0.851)  |  0 hr 06 min
+0.0010   1.5    0.0 | 0.718  0.813  0.932  (0.868)   | 0.787  0.804  0.917  (0.856)  |  0 hr 09 min
+0.0010   2.0    0.0 | 0.715  0.815  0.932  (0.869)*  | 0.772  0.796  0.929  (0.857)  |  0 hr 11 min
+0.0010   2.5    0.1 | 0.718  0.813  0.932  (0.868)   | 0.774  0.800  0.921  (0.856)  |  0 hr 14 min
+0.0010   3.0    0.1 | 0.719  0.811  0.932  (0.867)   | 0.769  0.810  0.922  (0.862)  |  0 hr 17 min
+0.0010   3.5    0.1 | 0.718  0.812  0.932  (0.867)   | 0.764  0.811  0.925  (0.864)  |  0 hr 20 min
+0.0010   4.0    0.1 | 0.718  0.814  0.932  (0.869)*  | 0.746  0.809  0.924  (0.862)  |  0 hr 23 min
+0.0010   4.5    0.1 | 0.716  0.814  0.932  (0.869)   | 0.783  0.807  0.924  (0.861)  |  0 hr 26 min
+0.0010   5.0    0.1 | 0.719  0.814  0.932  (0.869)   | 0.785  0.803  0.924  (0.859)  |  0 hr 29 min
+0.0010   5.5    0.1 | 0.718  0.813  0.933  (0.868)   | 0.788  0.806  0.921  (0.859)  |  0 hr 32 min
+0.0010   6.0    0.1 | 0.719  0.814  0.932  (0.869)*  | 0.775  0.801  0.923  (0.858)  |  0 hr 35 min
+0.0010   6.5    0.1 | 0.718  0.814  0.932  (0.869)   | 0.788  0.801  0.919  (0.856)  |  0 hr 38 min
+0.0010   7.0    0.2 | 0.718  0.814  0.932  (0.868)   | 0.836  0.788  0.914  (0.846)  |  0 hr 41 min
+0.0010   7.5    0.2 | 0.717  0.814  0.932  (0.869)   | 0.775  0.807  0.923  (0.860)  |  0 hr 44 min
+0.0010   8.0    0.2 | 0.717  0.814  0.932  (0.869)*  | 0.813  0.796  0.921  (0.853)  |  0 hr 47 min
+0.0010   8.5    0.2 | 0.718  0.813  0.932  (0.868)   | 0.741  0.810  0.926  (0.864)  |  0 hr 50 min
+0.0010   9.0    0.2 | 0.717  0.814  0.933  (0.869)   | 0.798  0.803  0.919  (0.856)  |  0 hr 53 min
+0.0010   9.5    0.2 | 0.717  0.813  0.933  (0.868)   | 0.796  0.796  0.921  (0.853)  |  0 hr 56 min
+0.0010  10.0    0.2 | 0.718  0.813  0.932  (0.868)*  | 0.797  0.806  0.923  (0.859)  |  0 hr 59 min
+0.0010  10.5    0.2 | 0.718  0.813  0.932  (0.868)   | 0.769  0.806  0.920  (0.859)  |  1 hr 02 min
+0.0010  11.0    0.2 | 0.718  0.814  0.933  (0.869)   | 0.764  0.816  0.932  (0.870)  |  1 hr 05 min
+0.0010  11.5    0.3 | 0.718  0.814  0.932  (0.869)   | 0.725  0.814  0.935  (0.870)  |  1 hr 08 min
+0.0010  12.0    0.3 | 0.716  0.815  0.932  (0.869)*  | 0.819  0.798  0.916  (0.852)  |  1 hr 11 min
+0.0010  12.5    0.3 | 0.717  0.812  0.932  (0.868)   | 0.762  0.803  0.926  (0.860)  |  1 hr 14 min
+0.0010  13.0    0.3 | 0.716  0.814  0.932  (0.869)   | 0.772  0.803  0.924  (0.859)  |  1 hr 17 min
+0.0010  13.5    0.3 | 0.716  0.812  0.933  (0.868)   | 0.788  0.807  0.920  (0.859)  |  1 hr 20 min
+0.0010  14.0    0.3 | 0.715  0.814  0.931  (0.868)*  | 0.760  0.805  0.923  (0.860)  |  1 hr 23 min
+0.0010  14.5    0.3 | 0.717  0.814  0.933  (0.869)   | 0.759  0.806  0.923  (0.860)  |  1 hr 26 min
+0.0010  15.0    0.3 | 0.715  0.814  0.932  (0.869)   | 0.789  0.799  0.924  (0.857)  |  1 hr 29 min
+0.0010  15.5    0.4 | 0.717  0.814  0.932  (0.869)   | 0.770  0.803  0.926  (0.859)  |  1 hr 32 min
+0.0010  16.0    0.4 | 0.716  0.814  0.932  (0.869)*  | 0.782  0.810  0.924  (0.863)  |  1 hr 35 min
+0.0010  16.5    0.4 | 0.716  0.814  0.932  (0.868)   | 0.777  0.806  0.925  (0.860)  |  1 hr 38 min
+0.0010  17.0    0.4 | 0.715  0.814  0.933  (0.869)   | 0.790  0.801  0.923  (0.857)  |  1 hr 41 min
+0.0010  17.5    0.4 | 0.713  0.815  0.933  (0.869)   | 0.789  0.805  0.923  (0.859)  |  1 hr 44 min
+0.0010  18.0    0.4 | 0.713  0.815  0.933  (0.870)*  | 0.770  0.810  0.925  (0.863)  |  1 hr 47 min
+0.0010  18.5    0.4 | 0.715  0.814  0.933  (0.869)   | 0.757  0.800  0.925  (0.857)  |  1 hr 50 min
+0.0010  19.0    0.4 | 0.713  0.814  0.933  (0.869)   | 0.771  0.812  0.924  (0.863)  |  1 hr 53 min
+0.0010  19.5    0.4 | 0.715  0.813  0.932  (0.868)   | 0.770  0.803  0.925  (0.859)  |  1 hr 56 min
+0.0010  20.0    0.5 | 0.715  0.815  0.932  (0.869)*  | 0.808  0.802  0.920  (0.856)  |  1 hr 59 min
+0.0010  20.5    0.5 | 0.714  0.814  0.933  (0.869)   | 0.792  0.803  0.922  (0.858)  |  2 hr 02 min
+0.0010  21.0    0.5 | 0.713  0.814  0.933  (0.869)   | 0.740  0.804  0.933  (0.863)  |  2 hr 05 min
+0.0010  21.5    0.5 | 0.717  0.813  0.932  (0.869)   | 0.727  0.815  0.927  (0.867)  |  2 hr 08 min
+0.0010  22.0    0.5 | 0.714  0.814  0.933  (0.869)*  | 0.769  0.810  0.924  (0.863)  |  2 hr 11 min
+0.0010  22.5    0.5 | 0.714  0.813  0.933  (0.869)   | 0.776  0.807  0.922  (0.860)  |  2 hr 14 min
+0.0010  23.0    0.5 | 0.714  0.815  0.932  (0.869)   | 0.792  0.796  0.924  (0.855)  |  2 hr 17 min
+0.0010  23.5    0.5 | 0.714  0.814  0.933  (0.869)   | 0.748  0.804  0.929  (0.862)  |  2 hr 20 min
+0.0010  24.0    0.5 | 0.713  0.816  0.932  (0.869)*  | 0.772  0.802  0.927  (0.860)  |  2 hr 22 min
+0.0010  24.5    0.6 | 0.713  0.815  0.933  (0.870)   | 0.822  0.791  0.914  (0.847)  |  2 hr 25 min
+0.0010  25.0    0.6 | 0.713  0.814  0.932  (0.869)   | 0.802  0.804  0.922  (0.859)  |  2 hr 28 min
+0.0010  25.5    0.6 | 0.711  0.815  0.933  (0.870)   | 0.776  0.809  0.923  (0.863)  |  2 hr 31 min
+0.0010  26.0    0.6 | 0.712  0.814  0.933  (0.869)*  | 0.786  0.797  0.928  (0.858)  |  2 hr 34 min
+
+--- [START 2018-11-17_11-30-04] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 25k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-17_11-31-41] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /data/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00132000_model.pth
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fb8885ef378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=159375.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-17_11-35-19] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f6537e34378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=159375.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100   0.5    0.0 | 1.671  0.588  0.789  (0.678)   | 2.039  0.497  0.718  (0.595)  |  0 hr 03 min
+0.0100   1.0    0.0 | 1.400  0.649  0.837  (0.734)   | 1.704  0.589  0.787  (0.678)  |  0 hr 05 min
+0.0100   1.5    0.0 | 1.287  0.678  0.853  (0.757)   | 1.584  0.614  0.809  (0.702)  |  0 hr 08 min
+0.0100   2.0    0.0 | 1.208  0.692  0.866  (0.771)*  | 1.455  0.643  0.831  (0.728)  |  0 hr 11 min
+0.0100   2.5    0.0 | 1.173  0.699  0.870  (0.777)   | 1.457  0.642  0.830  (0.727)  |  0 hr 14 min
+0.0100   3.0    0.0 | 1.143  0.709  0.875  (0.785)   | 1.348  0.673  0.844  (0.750)  |  0 hr 17 min
+0.0100   3.5    0.0 | 1.101  0.721  0.881  (0.794)   | 1.306  0.674  0.856  (0.756)  |  0 hr 20 min
+0.0100   4.0    0.0 | 1.086  0.723  0.884  (0.796)*  | 1.319  0.677  0.850  (0.756)  |  0 hr 23 min
+0.0100   4.5    0.0 | 1.072  0.728  0.885  (0.800)   | 1.296  0.680  0.855  (0.760)  |  0 hr 26 min
+0.0100   5.0    0.0 | 1.065  0.726  0.884  (0.798)   | 1.271  0.677  0.860  (0.760)  |  0 hr 29 min
+0.0100   5.5    0.1 | 1.045  0.731  0.887  (0.803)   | 1.248  0.692  0.862  (0.769)  |  0 hr 32 min
+0.0100   6.0    0.1 | 1.033  0.733  0.890  (0.805)*  | 1.221  0.700  0.869  (0.777)  |  0 hr 35 min
+0.0100   6.5    0.1 | 1.032  0.735  0.890  (0.806)   | 1.199  0.702  0.866  (0.778)  |  0 hr 37 min
+0.0100   7.0    0.1 | 1.029  0.738  0.890  (0.808)   | 1.158  0.710  0.874  (0.785)  |  0 hr 40 min
+0.0100   7.5    0.1 | 1.006  0.741  0.894  (0.811)   | 1.170  0.707  0.870  (0.781)  |  0 hr 43 min
+0.0100   8.0    0.1 | 0.995  0.744  0.894  (0.813)*  | 1.174  0.706  0.874  (0.782)  |  0 hr 46 min
+0.0100   8.5    0.1 | 0.995  0.746  0.896  (0.814)   | 1.159  0.709  0.870  (0.783)  |  0 hr 49 min
+0.0100   9.0    0.1 | 0.984  0.746  0.897  (0.816)   | 1.219  0.697  0.862  (0.771)  |  0 hr 52 min
+0.0100   9.5    0.1 | 0.973  0.751  0.897  (0.818)   | 1.130  0.713  0.877  (0.788)  |  0 hr 55 min
+0.0100  10.0    0.1 | 0.965  0.753  0.898  (0.819)*  | 1.135  0.720  0.875  (0.791)  |  0 hr 58 min
+0.0100  10.5    0.1 | 0.964  0.752  0.900  (0.820)   | 1.087  0.724  0.881  (0.795)  |  1 hr 01 min
+0.0100  11.0    0.1 | 0.962  0.751  0.900  (0.820)   | 1.134  0.723  0.877  (0.793)  |  1 hr 03 min
+0.0100  11.5    0.1 | 0.952  0.756  0.901  (0.822)   | 1.129  0.723  0.878  (0.794)  |  1 hr 06 min
+0.0100  12.0    0.1 | 0.954  0.755  0.900  (0.822)*  | 1.145  0.720  0.872  (0.789)  |  1 hr 09 min
+0.0100  12.5    0.1 | 0.942  0.757  0.901  (0.823)   | 1.103  0.725  0.881  (0.796)  |  1 hr 12 min
+0.0100  13.0    0.1 | 0.940  0.758  0.902  (0.824)   | 1.074  0.729  0.886  (0.801)  |  1 hr 15 min
+0.0100  13.5    0.1 | 0.945  0.756  0.904  (0.824)   | 1.105  0.724  0.879  (0.796)  |  1 hr 18 min
+0.0100  14.0    0.1 | 0.918  0.763  0.906  (0.828)*  | 1.094  0.730  0.884  (0.801)  |  1 hr 21 min
+0.0100  14.5    0.1 | 0.923  0.762  0.905  (0.828)   | 1.105  0.730  0.879  (0.798)  |  1 hr 24 min
+0.0100  15.0    0.1 | 0.925  0.763  0.906  (0.828)   | 1.081  0.730  0.883  (0.800)  |  1 hr 27 min
+0.0100  15.5    0.1 | 0.930  0.760  0.905  (0.827)   | 1.025  0.739  0.892  (0.809)  |  1 hr 30 min
+0.0100  16.0    0.2 | 0.935  0.758  0.904  (0.825)*  | 1.091  0.733  0.884  (0.802)  |  1 hr 32 min
+0.0100  16.5    0.2 | 0.912  0.765  0.908  (0.831)   | 1.053  0.741  0.887  (0.807)  |  1 hr 35 min
+0.0100  17.0    0.2 | 0.917  0.764  0.906  (0.829)   | 1.045  0.741  0.892  (0.810)  |  1 hr 38 min
+0.0100  17.5    0.2 | 0.906  0.765  0.909  (0.831)   | 1.048  0.743  0.889  (0.809)  |  1 hr 41 min
+0.0100  18.0    0.2 | 0.910  0.765  0.909  (0.831)*  | 1.075  0.734  0.891  (0.805)  |  1 hr 44 min
+0.0100  18.5    0.2 | 0.905  0.768  0.908  (0.832)   | 1.073  0.741  0.885  (0.807)  |  1 hr 47 min
+0.0100  19.0    0.2 | 0.904  0.767  0.909  (0.832)   | 1.023  0.742  0.898  (0.813)  |  1 hr 50 min
+0.0100  19.5    0.2 | 0.897  0.767  0.910  (0.833)   | 1.001  0.744  0.894  (0.812)  |  1 hr 53 min
+0.0100  20.0    0.2 | 0.892  0.769  0.910  (0.833)*  | 1.039  0.737  0.890  (0.807)  |  1 hr 56 min
+0.0100  20.5    0.2 | 0.884  0.770  0.910  (0.834)   | 1.045  0.744  0.886  (0.809)  |  1 hr 59 min
+
+--- [START 2018-11-17_15-43-47] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 27200000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f46374ad378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=159375.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100   0.5    0.0 | 1.669  0.585  0.789  (0.677)   | 2.113  0.493  0.711  (0.590)  |  0 hr 03 min
+0.0100   1.0    0.0 | 1.382  0.656  0.838  (0.738)   | 1.729  0.576  0.776  (0.667)  |  0 hr 05 min
+0.0100   1.5    0.0 | 1.291  0.673  0.852  (0.754)   | 1.591  0.606  0.808  (0.697)  |  0 hr 08 min
+0.0100   2.0    0.0 | 1.224  0.689  0.861  (0.767)*  | 1.478  0.636  0.820  (0.720)  |  0 hr 11 min
+0.0100   2.5    0.0 | 1.204  0.696  0.864  (0.772)   | 1.417  0.647  0.839  (0.735)  |  0 hr 14 min
+0.0100   3.0    0.0 | 1.140  0.713  0.876  (0.787)   | 1.354  0.665  0.848  (0.748)  |  0 hr 17 min
+0.0100   3.5    0.0 | 1.123  0.715  0.878  (0.789)   | 1.340  0.662  0.848  (0.747)  |  0 hr 20 min
+0.0100   4.0    0.0 | 1.101  0.720  0.880  (0.793)*  | 1.290  0.680  0.856  (0.760)  |  0 hr 23 min
+0.0100   4.5    0.1 | 1.072  0.726  0.884  (0.798)   | 1.256  0.687  0.856  (0.764)  |  0 hr 26 min
+0.0100   5.0    0.1 | 1.059  0.728  0.887  (0.801)   | 1.256  0.686  0.862  (0.766)  |  0 hr 29 min
+0.0100   5.5    0.1 | 1.052  0.732  0.884  (0.802)   | 1.216  0.701  0.864  (0.775)  |  0 hr 31 min
+0.0100   6.0    0.1 | 1.033  0.735  0.889  (0.806)*  | 1.229  0.695  0.857  (0.769)  |  0 hr 34 min
+0.0100   6.5    0.1 | 1.028  0.737  0.891  (0.807)   | 1.198  0.703  0.866  (0.778)  |  0 hr 37 min
+0.0100   7.0    0.1 | 1.018  0.740  0.891  (0.809)   | 1.157  0.708  0.871  (0.782)  |  0 hr 40 min
+0.0100   7.5    0.1 | 1.000  0.744  0.895  (0.813)   | 1.208  0.707  0.868  (0.780)  |  0 hr 43 min
+0.0100   8.0    0.1 | 1.009  0.741  0.893  (0.810)*  | 1.191  0.696  0.867  (0.774)  |  0 hr 46 min
+0.0100   8.5    0.1 | 0.991  0.747  0.898  (0.816)   | 1.190  0.704  0.869  (0.780)  |  0 hr 49 min
+0.0100   9.0    0.1 | 0.980  0.751  0.897  (0.817)   | 1.169  0.710  0.875  (0.785)  |  0 hr 52 min
+0.0100   9.5    0.1 | 0.967  0.750  0.899  (0.818)   | 1.120  0.722  0.880  (0.794)  |  0 hr 55 min
+0.0100  10.0    0.1 | 0.972  0.750  0.898  (0.818)*  | 1.134  0.723  0.876  (0.793)  |  0 hr 57 min
+0.0100  10.5    0.1 | 0.970  0.750  0.900  (0.819)   | 1.079  0.730  0.881  (0.799)  |  1 hr 00 min
+0.0100  11.0    0.1 | 0.954  0.757  0.901  (0.823)   | 1.151  0.713  0.874  (0.786)  |  1 hr 03 min
+0.0100  11.5    0.1 | 0.951  0.755  0.902  (0.822)   | 1.140  0.718  0.877  (0.791)  |  1 hr 06 min
+0.0100  12.0    0.1 | 0.957  0.754  0.900  (0.821)*  | 1.150  0.719  0.877  (0.791)  |  1 hr 09 min
+0.0100  12.5    0.1 | 0.950  0.756  0.902  (0.823)   | 1.102  0.727  0.878  (0.796)  |  1 hr 12 min
+0.0100  13.0    0.2 | 0.939  0.756  0.903  (0.824)   | 1.122  0.719  0.878  (0.791)  |  1 hr 15 min
+0.0100  13.5    0.2 | 0.934  0.758  0.904  (0.825)   | 1.083  0.732  0.882  (0.800)  |  1 hr 18 min
+0.0100  14.0    0.2 | 0.941  0.756  0.903  (0.824)*  | 1.107  0.725  0.885  (0.797)  |  1 hr 21 min
+0.0100  14.5    0.2 | 0.931  0.761  0.904  (0.826)   | 1.072  0.734  0.880  (0.801)  |  1 hr 23 min
+0.0100  15.0    0.2 | 0.939  0.759  0.905  (0.826)   | 1.062  0.734  0.890  (0.805)  |  1 hr 26 min
+0.0100  15.5    0.2 | 0.924  0.761  0.904  (0.827)   | 1.060  0.735  0.890  (0.806)  |  1 hr 29 min
+0.0100  16.0    0.2 | 0.919  0.763  0.907  (0.829)*  | 1.038  0.743  0.890  (0.811)  |  1 hr 32 min
+0.0100  16.5    0.2 | 0.919  0.764  0.905  (0.829)   | 1.085  0.734  0.883  (0.802)  |  1 hr 35 min
+0.0100  17.0    0.2 | 0.925  0.763  0.905  (0.828)   | 1.027  0.747  0.888  (0.811)  |  1 hr 38 min
+0.0100  17.5    0.2 | 0.909  0.765  0.907  (0.830)   | 1.064  0.734  0.884  (0.803)  |  1 hr 41 min
+0.0100  18.0    0.2 | 0.912  0.765  0.907  (0.829)*  | 1.028  0.736  0.890  (0.806)  |  1 hr 44 min
+0.0100  18.5    0.2 | 0.902  0.767  0.909  (0.832)   | 1.042  0.737  0.890  (0.806)  |  1 hr 47 min
+0.0100  19.0    0.2 | 0.908  0.764  0.907  (0.830)   | 1.094  0.728  0.882  (0.798)  |  1 hr 49 min
+0.0100  19.5    0.2 | 0.903  0.766  0.909  (0.831)   | 1.054  0.741  0.890  (0.810)  |  1 hr 52 min
+0.0100  20.0    0.2 | 0.892  0.769  0.909  (0.833)*  | 1.015  0.744  0.890  (0.812)  |  1 hr 55 min
+0.0100  20.5    0.2 | 0.895  0.768  0.910  (0.833)   | 1.015  0.745  0.893  (0.813)  |  1 hr 58 min
+0.0100  21.0    0.2 | 0.889  0.769  0.909  (0.834)   | 1.058  0.742  0.886  (0.808)  |  2 hr 01 min
+0.0100  21.5    0.3 | 0.897  0.768  0.909  (0.833)   | 1.031  0.745  0.892  (0.812)  |  2 hr 04 min
+0.0100  22.0    0.3 | 0.897  0.770  0.909  (0.834)*  | 1.012  0.750  0.895  (0.816)  |  2 hr 07 min
+0.0100  22.5    0.3 | 0.893  0.771  0.909  (0.834)   | 1.056  0.741  0.889  (0.808)  |  2 hr 10 min
+0.0100  23.0    0.3 | 0.880  0.772  0.910  (0.835)   | 0.997  0.756  0.896  (0.820)  |  2 hr 13 min
+0.0100  23.5    0.3 | 0.881  0.774  0.911  (0.837)   | 0.989  0.751  0.898  (0.818)  |  2 hr 16 min
+0.0100  24.0    0.3 | 0.880  0.772  0.911  (0.836)*  | 1.015  0.750  0.892  (0.815)  |  2 hr 18 min
+0.0100  24.5    0.3 | 0.877  0.772  0.912  (0.836)   | 1.026  0.744  0.894  (0.812)  |  2 hr 21 min
+0.0100  25.0    0.3 | 0.878  0.774  0.911  (0.837)   | 0.996  0.753  0.897  (0.819)  |  2 hr 24 min
+0.0100  25.5    0.3 | 0.880  0.772  0.911  (0.836)   | 1.030  0.743  0.890  (0.810)  |  2 hr 27 min
+0.0100  26.0    0.3 | 0.885  0.771  0.911  (0.835)*  | 1.000  0.749  0.894  (0.816)  |  2 hr 30 min
+0.0100  26.5    0.3 | 0.870  0.774  0.912  (0.837)   | 0.995  0.745  0.898  (0.815)  |  2 hr 33 min
+0.0100  27.0    0.3 | 0.865  0.774  0.914  (0.838)   | 0.964  0.760  0.901  (0.825)  |  2 hr 36 min
+0.0100  27.5    0.3 | 0.867  0.775  0.913  (0.838)   | 0.990  0.762  0.894  (0.823)  |  2 hr 39 min
+0.0100  28.0    0.3 | 0.869  0.774  0.912  (0.837)*  | 1.006  0.752  0.889  (0.815)  |  2 hr 42 min
+0.0100  28.5    0.3 | 0.867  0.774  0.913  (0.838)   | 0.978  0.761  0.899  (0.824)  |  2 hr 44 min
+
+--- [START 2018-11-17_21-01-19] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /data/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 80k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 22100000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_densenet121.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fcd2b104378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=159375.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100   0.5    0.0 | 1.664  0.587  0.791  (0.679)   | 2.117  0.490  0.713  (0.589)  |  0 hr 03 min
+0.0100   1.0    0.0 | 1.386  0.652  0.837  (0.735)   | 1.687  0.577  0.786  (0.671)  |  0 hr 05 min
+0.0100   1.5    0.0 | 1.277  0.680  0.854  (0.758)   | 1.561  0.608  0.810  (0.699)  |  0 hr 08 min
+0.0100   2.0    0.0 | 1.217  0.693  0.863  (0.770)*  | 1.497  0.633  0.826  (0.720)  |  0 hr 11 min
+0.0100   2.5    0.0 | 1.165  0.704  0.870  (0.780)   | 1.454  0.640  0.835  (0.728)  |  0 hr 14 min
+0.0100   3.0    0.0 | 1.159  0.706  0.870  (0.781)   | 1.349  0.666  0.847  (0.748)  |  0 hr 17 min
+0.0100   3.5    0.1 | 1.129  0.709  0.876  (0.785)   | 1.366  0.664  0.843  (0.745)  |  0 hr 20 min
+0.0100   4.0    0.1 | 1.127  0.717  0.876  (0.790)*  | 1.334  0.673  0.851  (0.755)  |  0 hr 23 min
+0.0100   4.5    0.1 | 1.076  0.722  0.884  (0.796)   | 1.276  0.684  0.859  (0.763)  |  0 hr 26 min
+0.0100   5.0    0.1 | 1.062  0.730  0.887  (0.802)   | 1.231  0.690  0.863  (0.768)  |  0 hr 29 min
+0.0100   5.5    0.1 | 1.056  0.729  0.887  (0.801)   | 1.247  0.692  0.860  (0.768)  |  0 hr 31 min
+0.0100   6.0    0.1 | 1.041  0.735  0.888  (0.805)*  | 1.183  0.713  0.870  (0.784)  |  0 hr 34 min
+0.0100   6.5    0.1 | 1.017  0.740  0.892  (0.809)   | 1.208  0.703  0.866  (0.777)  |  0 hr 37 min
+0.0100   7.0    0.1 | 1.012  0.740  0.894  (0.810)   | 1.234  0.697  0.862  (0.772)  |  0 hr 40 min
+0.0100   7.5    0.1 | 1.000  0.743  0.894  (0.812)   | 1.143  0.717  0.876  (0.789)  |  0 hr 43 min
+0.0100   8.0    0.1 | 0.999  0.742  0.895  (0.812)*  | 1.135  0.706  0.876  (0.784)  |  0 hr 46 min
+0.0100   8.5    0.1 | 0.995  0.744  0.896  (0.814)   | 1.197  0.708  0.869  (0.780)  |  0 hr 49 min
+0.0100   9.0    0.1 | 0.984  0.748  0.896  (0.816)   | 1.120  0.718  0.883  (0.794)  |  0 hr 52 min
+
+--- [START 2018-11-17_20-41-21] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-17_20-48-23] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+
+--- [START 2018-11-17_20-54-18] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_nasnet.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fd7870cb378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-17_21-03-29] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f3272979378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-17_21-10-06] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f1d27845378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-17_21-20-38] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+
+--- [START 2018-11-17_21-28-34] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fd3ace4c378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-17_21-37-49] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+
+--- [START 2018-11-17_21-43-56] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f86c9e0b378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-17_21-52-39] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fcc200db378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-17_22-03-05] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_nasnet.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f5f38b3c378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-17_22-13-18] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_nasnet.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f0906674378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_05-55-26] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_nasnet.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f68cc388378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_06-07-35] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'model_nasnet.Net'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fcfad722378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_06-26-40] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7faad58e4378>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_06-48-22] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 320
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f60e63472f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1062500.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_06-55-44] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+
+--- [START 2018-11-18_07-00-07] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fbae168c2f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1328125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_07-07-04] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f3723baf2f0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1328125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_07-16-12] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f621474f048>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1328125.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_07-35-31] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 512
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f99514cb0d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=664062.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_07-41-39] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 512
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fa66a8310d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=664062.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_07-51-27] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 704
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f4e54a430d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=482954.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-18_08-26-24] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 704
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fbe9a1e90d0>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=482954.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100   2.5    0.1 | 0.946  0.761  0.901  (0.825)   | 1.121  0.731  0.879  (0.799)  |  2 hr 19 min
+0.0100   5.0    0.1 | 0.861  0.781  0.914  (0.842)   | 0.976  0.760  0.900  (0.824)  |  4 hr 37 min
+0.0100   7.5    0.2 | 0.811  0.790  0.922  (0.851)   | 0.929  0.772  0.902  (0.831)  |  6 hr 55 min
+0.0100  10.0    0.2 | 0.787  0.798  0.924  (0.856)*  | 0.861  0.787  0.918  (0.847)  |  9 hr 12 min
+0.0100  12.5    0.3 | 0.765  0.803  0.926  (0.860)   | 0.860  0.789  0.913  (0.846)  | 11 hr 31 min
+0.0100  15.0    0.3 | 0.753  0.807  0.927  (0.862)   | 0.825  0.793  0.921  (0.852)  | 13 hr 49 min
+0.0100  17.5    0.4 | 0.739  0.810  0.929  (0.865)   | 0.842  0.789  0.917  (0.848)  | 16 hr 08 min
+0.0100  20.0    0.4 | 0.728  0.812  0.931  (0.867)*  | 0.791  0.799  0.922  (0.856)  | 18 hr 27 min
+0.0100  22.5    0.5 | 0.723  0.813  0.932  (0.868)   | 0.808  0.800  0.921  (0.855)  | 20 hr 45 min
+0.0100  25.0    0.5 | 0.710  0.817  0.934  (0.871)   | 0.769  0.808  0.925  (0.862)  | 23 hr 03 min
+0.0100  27.5    0.6 | 0.704  0.818  0.934  (0.871)   | 0.813  0.800  0.919  (0.855)  | 25 hr 22 min
+0.0100  30.0    0.6 | 0.701  0.818  0.935  (0.872)*  | 0.783  0.802  0.924  (0.858)  | 27 hr 40 min
+0.0100  32.5    0.7 | 0.693  0.819  0.935  (0.873)   | 0.757  0.807  0.928  (0.863)  | 29 hr 59 min
+0.0100  35.0    0.7 | 0.690  0.821  0.935  (0.874)   | 0.775  0.806  0.924  (0.860)  | 32 hr 17 min
+
+--- [START 2018-11-19_18-08-37] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+0.0100  37.5    0.8 | 0.690  0.822  0.936  (0.875)   | 0.789  0.800  0.926  (0.858)  | 34 hr 36 min
+0.0100  40.0    0.8 | 0.684  0.822  0.936  (0.875)*  | 0.756  0.812  0.930  (0.866)  | 36 hr 55 min
+0.0100  42.5    0.9 | 0.679  0.824  0.938  (0.876)   | 0.790  0.804  0.924  (0.859)  | 39 hr 14 min
+0.0100  45.0    0.9 | 0.685  0.823  0.936  (0.876)   | 0.769  0.805  0.926  (0.861)  | 41 hr 33 min
+0.0100  47.5    1.0 | 0.676  0.824  0.938  (0.876)   | 0.754  0.810  0.929  (0.865)  | 43 hr 52 min
+0.0100  50.0    1.0 | 0.675  0.823  0.939  (0.877)*  | 0.729  0.817  0.931  (0.870)  | 46 hr 12 min
+0.0100  52.5    1.1 | 0.670  0.826  0.939  (0.878)   | 0.715  0.817  0.932  (0.870)  | 48 hr 31 min
+0.0100  55.0    1.1 | 0.670  0.825  0.938  (0.877)   | 0.746  0.810  0.932  (0.866)  | 50 hr 51 min
+0.0100  57.5    1.2 | 0.671  0.825  0.938  (0.877)   | 0.732  0.819  0.931  (0.871)  | 53 hr 11 min
+0.0100  60.0    1.2 | 0.667  0.826  0.938  (0.878)*  | 0.709  0.820  0.935  (0.873)  | 55 hr 30 min
+0.0100  62.5    1.3 | 0.670  0.826  0.938  (0.878)   | 0.713  0.817  0.933  (0.871)  | 57 hr 50 min
+0.0100  65.0    1.3 | 0.661  0.827  0.940  (0.879)   | 0.757  0.810  0.929  (0.865)  | 60 hr 09 min
+0.0100  67.5    1.4 | 0.663  0.828  0.940  (0.880)   | 0.734  0.816  0.930  (0.869)  | 62 hr 27 min
+0.0100  70.0    1.4 | 0.659  0.830  0.939  (0.880)*  | 0.709  0.821  0.935  (0.874)  | 64 hr 46 min
+0.0100  72.5    1.5 | 0.655  0.828  0.940  (0.880)   | 0.731  0.815  0.932  (0.869)  | 67 hr 04 min
+0.0100  75.0    1.6 | 0.658  0.829  0.939  (0.880)   | 0.719  0.813  0.931  (0.868)  | 69 hr 22 min
+
+--- [START 2018-11-21_07-58-57] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 704
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00076000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f87ddad78c8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=482954.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-21_08-19-46] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 704
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00076000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f9820d43ae8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=482954.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010   2.5    0.1 | 0.617  0.840  0.943  (0.888)   | 0.677  0.830  0.940  (0.881)  |  2 hr 19 min
+0.0010   5.0    0.1 | 0.614  0.840  0.944  (0.889)   | 0.645  0.835  0.939  (0.883)  |  4 hr 39 min
+0.0010   7.5    0.2 | 0.611  0.841  0.944  (0.889)   | 0.656  0.834  0.939  (0.883)  |  6 hr 57 min
+0.0010  10.0    0.2 | 0.608  0.842  0.945  (0.890)*  | 0.635  0.838  0.945  (0.888)  |  9 hr 16 min
+0.0010  12.5    0.3 | 0.606  0.842  0.946  (0.890)   | 0.639  0.840  0.940  (0.887)  | 11 hr 34 min
+0.0010  15.0    0.3 | 0.606  0.844  0.946  (0.891)   | 0.631  0.838  0.945  (0.887)  | 13 hr 53 min
+0.0010  17.5    0.4 | 0.605  0.845  0.946  (0.892)   | 0.647  0.834  0.942  (0.884)  | 16 hr 12 min
+0.0010  20.0    0.4 | 0.604  0.844  0.946  (0.892)*  | 0.614  0.844  0.944  (0.891)  | 18 hr 30 min
+0.0010  22.5    0.5 | 0.603  0.844  0.945  (0.891)   | 0.634  0.837  0.942  (0.886)  | 20 hr 48 min
+0.0010  25.0    0.5 | 0.601  0.844  0.947  (0.891)   | 0.605  0.843  0.944  (0.890)  | 23 hr 06 min
+0.0010  27.5    0.6 | 0.602  0.844  0.946  (0.892)   | 0.645  0.837  0.941  (0.885)  | 25 hr 25 min
+0.0010  30.0    0.6 | 0.601  0.845  0.946  (0.892)*  | 0.624  0.841  0.943  (0.888)  | 27 hr 43 min
+0.0010  32.5    0.7 | 0.598  0.845  0.947  (0.893)   | 0.611  0.842  0.946  (0.890)  | 30 hr 01 min
+0.0010  35.0    0.7 | 0.598  0.845  0.947  (0.892)   | 0.629  0.841  0.942  (0.888)  | 32 hr 19 min
+0.0010  37.5    0.8 | 0.595  0.845  0.947  (0.893)   | 0.633  0.840  0.943  (0.888)  | 34 hr 37 min
+0.0010  40.0    0.8 | 0.599  0.846  0.947  (0.893)*  | 0.613  0.844  0.945  (0.891)  | 36 hr 55 min
+0.0010  42.5    0.9 | 0.596  0.845  0.947  (0.893)   | 0.641  0.837  0.942  (0.885)  | 39 hr 14 min
+0.0010  45.0    0.9 | 0.596  0.846  0.947  (0.893)   | 0.615  0.842  0.944  (0.889)  | 41 hr 32 min
+0.0010  47.5    1.0 | 0.597  0.846  0.947  (0.893)   | 0.614  0.844  0.945  (0.891)  | 43 hr 50 min
+0.0010  50.0    1.0 | 0.597  0.845  0.948  (0.893)*  | 0.593  0.851  0.945  (0.895)  | 46 hr 08 min
+
+--- [START 2018-11-23_08-52-50] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 640
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00052000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f633e402ae8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=531250.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-23_09-03-26] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 704
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00052000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f6d052c2ae8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=482954.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010  52.5    0.0 | 0.591  0.844  0.947  (0.892)   | 0.627  0.843  0.947  (0.891)  |  0 hr 33 min
+0.0010  55.0    0.1 | 0.589  0.847  0.948  (0.894)   | 0.627  0.842  0.944  (0.890)  |  3 hr 06 min
+0.0010  57.5    0.1 | 0.590  0.847  0.948  (0.894)   | 0.642  0.837  0.942  (0.885)  |  5 hr 39 min
+0.0010  60.0    0.2 | 0.587  0.848  0.948  (0.894)*  | 0.619  0.842  0.944  (0.889)  |  8 hr 13 min
+0.0010  62.5    0.2 | 0.586  0.849  0.948  (0.895)   | 0.615  0.848  0.942  (0.892)  | 10 hr 46 min
+0.0010  65.0    0.3 | 0.588  0.849  0.949  (0.895)   | 0.647  0.839  0.939  (0.885)  | 13 hr 19 min
+0.0010  67.5    0.3 | 0.587  0.848  0.949  (0.895)   | 0.614  0.842  0.945  (0.890)  | 15 hr 53 min
+0.0010  70.0    0.4 | 0.587  0.848  0.949  (0.894)*  | 0.619  0.840  0.944  (0.888)  | 18 hr 26 min
+0.0010  72.5    0.4 | 0.586  0.848  0.948  (0.895)   | 0.600  0.848  0.947  (0.894)  | 20 hr 59 min
+0.0010  75.0    0.5 | 0.586  0.848  0.948  (0.894)   | 0.630  0.841  0.944  (0.889)  | 23 hr 32 min
+0.0010  77.5    0.5 | 0.584  0.849  0.949  (0.895)   | 0.621  0.843  0.943  (0.890)  | 26 hr 06 min
+0.0010  80.0    0.6 | 0.584  0.848  0.948  (0.894)*  | 0.619  0.845  0.945  (0.891)  | 28 hr 39 min
+0.0010  82.5    0.6 | 0.586  0.849  0.949  (0.895)   | 0.613  0.842  0.944  (0.890)  | 31 hr 12 min
+0.0010  85.0    0.7 | 0.583  0.849  0.949  (0.895)   | 0.613  0.845  0.944  (0.891)  | 33 hr 45 min
+0.0010  87.5    0.7 | 0.583  0.850  0.949  (0.896)   | 0.612  0.845  0.944  (0.891)  | 37 hr 06 min
+0.0010  90.0    0.8 | 0.583  0.850  0.948  (0.896)*  | 0.609  0.844  0.948  (0.892)  | 39 hr 39 min
+0.0010  92.5    0.8 | 0.582  0.851  0.949  (0.897)   | 0.604  0.845  0.948  (0.892)  | 42 hr 11 min
+0.0010  95.0    0.9 | 0.582  0.850  0.949  (0.896)   | 0.603  0.850  0.946  (0.895)  | 44 hr 44 min
+0.0010  97.5    0.9 | 0.583  0.849  0.949  (0.896)   | 0.609  0.848  0.944  (0.893)  | 47 hr 16 min
+0.0010 100.0    1.0 | 0.584  0.849  0.949  (0.896)*  | 0.598  0.845  0.948  (0.893)  | 49 hr 49 min
+0.0010 102.5    1.0 | 0.585  0.850  0.949  (0.896)   | 0.608  0.847  0.947  (0.893)  | 52 hr 22 min
+
+--- [START 2018-11-25_15-03-09] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 704
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00102000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fab7a7f2ae8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=482954.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-25_15-10-18] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 512
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00102000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f5f8fbffae8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=664062.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-25_15-17-29] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 384
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00102000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f4a777b0ae8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=885416.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+
+--- [START 2018-11-25_15-25-29] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 448
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00102000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f0cf5182ae8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=758928.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010 102.5    0.0 | 0.598  0.845  0.948  (0.893)   | 0.651  0.834  0.942  (0.884)  |  0 hr 35 min
+0.0010 105.0    0.0 | 0.595  0.846  0.947  (0.893)   | 0.629  0.840  0.943  (0.888)  |  3 hr 14 min
+
+--- [START 2018-11-25_19-45-47] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 448
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00102000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f13408e2bf8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=758928.500
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010 102.5    0.0 | 0.628  0.836  0.943  (0.886)   | 0.685  0.823  0.938  (0.876)  |  0 hr 35 min
+0.0010 105.0    0.0 | 0.618  0.839  0.945  (0.888)   | 0.663  0.829  0.941  (0.881)  |  3 hr 15 min
+
+--- [START 2018-11-26_09-05-21] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 340
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00102000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f301407dbf8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=1000000.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010 102.5    0.0 | 0.603  0.843  0.947  (0.891)   | 0.663  0.830  0.939  (0.880)  |  0 hr 30 min
+0.0010 105.0    0.0 | 0.601  0.845  0.948  (0.893)   | 0.657  0.828  0.940  (0.880)  |  2 hr 49 min
+0.0010 107.5    0.1 | 0.603  0.845  0.948  (0.893)   | 0.627  0.839  0.943  (0.887)  |  5 hr 09 min
+0.0010 110.0    0.1 | 0.600  0.846  0.947  (0.893)*  | 0.661  0.826  0.938  (0.878)  |  7 hr 29 min
+0.0010 112.5    0.1 | 0.602  0.845  0.947  (0.892)   | 0.605  0.840  0.949  (0.891)  |  9 hr 48 min
+0.0010 115.0    0.1 | 0.601  0.845  0.947  (0.893)   | 0.655  0.837  0.940  (0.885)  | 12 hr 08 min
+0.0010 117.5    0.2 | 0.598  0.844  0.947  (0.892)   | 0.657  0.835  0.939  (0.883)  | 14 hr 28 min
+0.0010 120.0    0.2 | 0.600  0.844  0.947  (0.892)*  | 0.650  0.834  0.945  (0.885)  | 16 hr 48 min
+0.0010 122.5    0.2 | 0.597  0.845  0.947  (0.892)   | 0.644  0.837  0.940  (0.885)  | 19 hr 07 min
+
+--- [START 2018-11-27_06-09-53] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 340
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00102000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f3e4ed42bf8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.010, decay=0.100, step=1000000.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0100 125.0    0.0 | 0.751  0.804  0.931  (0.863)   | 0.814  0.790  0.924  (0.851)  |  0 hr 58 min
+
+--- [START 2018-11-27_07-51-31] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 340
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00102000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fb0c7d64bf8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=1000000.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0010 125.0    0.0 | 0.602  0.843  0.947  (0.891)   | 0.642  0.839  0.944  (0.888)  |  0 hr 58 min
+0.0010 127.5    0.0 | 0.605  0.844  0.948  (0.892)   | 0.649  0.833  0.942  (0.883)  |  3 hr 17 min
+0.0010 130.0    0.1 | 0.600  0.845  0.948  (0.893)*  | 0.656  0.831  0.942  (0.882)  |  5 hr 37 min
+0.0010 132.5    0.1 | 0.600  0.844  0.948  (0.892)   | 0.653  0.837  0.940  (0.885)  |  7 hr 57 min
+0.0010 135.0    0.1 | 0.602  0.845  0.947  (0.892)   | 0.615  0.839  0.946  (0.889)  | 10 hr 16 min
+0.0010 137.5    0.1 | 0.598  0.845  0.947  (0.893)   | 0.670  0.827  0.936  (0.877)  | 12 hr 36 min
+0.0010 140.0    0.2 | 0.597  0.845  0.948  (0.893)*  | 0.630  0.843  0.941  (0.888)  | 14 hr 56 min
+0.0010 142.5    0.2 | 0.595  0.847  0.948  (0.894)   | 0.654  0.836  0.940  (0.884)  | 17 hr 15 min
+0.0010 145.0    0.2 | 0.595  0.845  0.948  (0.893)   | 0.612  0.841  0.947  (0.890)  | 19 hr 34 min
+0.0010 147.5    0.2 | 0.595  0.847  0.948  (0.894)   | 0.626  0.836  0.945  (0.887)  | 21 hr 54 min
+0.0010 150.0    0.3 | 0.595  0.845  0.948  (0.893)*  | 0.633  0.836  0.938  (0.884)  | 24 hr 13 min
+0.0010 152.5    0.3 | 0.594  0.845  0.948  (0.893)   | 0.637  0.836  0.943  (0.886)  | 26 hr 32 min
+0.0010 155.0    0.3 | 0.595  0.847  0.948  (0.894)   | 0.628  0.837  0.944  (0.887)  | 28 hr 51 min
+0.0010 157.5    0.3 | 0.592  0.846  0.947  (0.893)   | 0.622  0.839  0.945  (0.888)  | 31 hr 11 min
+0.0010 160.0    0.4 | 0.596  0.847  0.948  (0.893)*  | 0.635  0.839  0.944  (0.887)  | 33 hr 30 min
+0.0010 162.5    0.4 | 0.591  0.848  0.947  (0.894)   | 0.609  0.839  0.948  (0.890)  | 35 hr 49 min
+0.0010 165.0    0.4 | 0.595  0.845  0.947  (0.892)   | 0.646  0.841  0.942  (0.888)  | 38 hr 09 min
+0.0010 167.5    0.4 | 0.595  0.847  0.948  (0.894)   | 0.629  0.840  0.942  (0.888)  | 40 hr 28 min
+0.0010 170.0    0.5 | 0.595  0.846  0.947  (0.893)*  | 0.636  0.842  0.943  (0.889)  | 42 hr 48 min
+0.0010 172.5    0.5 | 0.592  0.846  0.948  (0.894)   | 0.650  0.839  0.939  (0.885)  | 45 hr 08 min
+0.0010 175.0    0.5 | 0.592  0.847  0.948  (0.894)   | 0.636  0.838  0.941  (0.885)  | 47 hr 29 min
+0.0010 177.5    0.5 | 0.592  0.845  0.949  (0.893)   | 0.616  0.848  0.944  (0.893)  | 49 hr 49 min
+0.0010 180.0    0.6 | 0.594  0.847  0.948  (0.894)*  | 0.633  0.839  0.940  (0.886)  | 52 hr 09 min
+0.0010 182.5    0.6 | 0.593  0.847  0.947  (0.894)   | 0.591  0.845  0.945  (0.891)  | 54 hr 29 min
+0.0010 185.0    0.6 | 0.590  0.848  0.948  (0.894)   | 0.611  0.846  0.945  (0.892)  | 56 hr 49 min
+0.0010 187.5    0.6 | 0.591  0.845  0.947  (0.893)   | 0.624  0.837  0.942  (0.886)  | 59 hr 09 min
+0.0010 190.0    0.7 | 0.593  0.846  0.949  (0.893)*  | 0.604  0.843  0.945  (0.891)  | 61 hr 29 min
+0.0010 192.5    0.7 | 0.588  0.848  0.949  (0.895)   | 0.634  0.840  0.940  (0.886)  | 63 hr 49 min
+0.0010 195.0    0.7 | 0.595  0.847  0.948  (0.894)   | 0.606  0.841  0.947  (0.890)  | 66 hr 09 min
+0.0010 197.5    0.7 | 0.586  0.847  0.949  (0.894)   | 0.617  0.842  0.946  (0.890)  | 68 hr 29 min
+0.0010 200.0    0.8 | 0.590  0.847  0.949  (0.894)*  | 0.601  0.841  0.946  (0.890)  | 70 hr 49 min
+0.0010 202.5    0.8 | 0.587  0.848  0.948  (0.894)   | 0.655  0.835  0.942  (0.885)  | 73 hr 08 min
+0.0010 205.0    0.8 | 0.588  0.848  0.949  (0.895)   | 0.616  0.841  0.945  (0.889)  | 75 hr 28 min
+0.0010 207.5    0.8 | 0.587  0.847  0.949  (0.894)   | 0.608  0.842  0.947  (0.891)  | 77 hr 48 min
+0.0010 210.0    0.9 | 0.589  0.847  0.949  (0.894)*  | 0.614  0.843  0.942  (0.889)  | 80 hr 07 min
+0.0010 212.5    0.9 | 0.588  0.849  0.949  (0.895)   | 0.620  0.841  0.945  (0.889)  | 82 hr 27 min
+0.0010 215.0    0.9 | 0.587  0.848  0.949  (0.895)   | 0.612  0.843  0.949  (0.892)  | 84 hr 47 min
+0.0010 217.5    0.9 | 0.588  0.846  0.949  (0.894)   | 0.626  0.843  0.942  (0.889)  | 87 hr 07 min
+0.0010 220.0    1.0 | 0.588  0.848  0.948  (0.895)*  | 0.648  0.837  0.941  (0.885)  | 89 hr 26 min
+0.0010 222.5    1.0 | 0.591  0.848  0.948  (0.894)   | 0.598  0.844  0.949  (0.893)  | 91 hr 46 min
+0.0010 225.0    1.0 | 0.592  0.845  0.949  (0.893)   | 0.619  0.845  0.945  (0.891)  | 94 hr 06 min
+0.0010 227.5    1.0 | 0.590  0.847  0.948  (0.894)   | 0.597  0.846  0.949  (0.893)  | 96 hr 26 min
+
+--- [START 2018-12-01_10-02-10] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 340
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00228000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7fe1cc21fbf8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=1000000.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0005 230.0    0.0 | 0.585  0.848  0.950  (0.895)*  | 0.603  0.847  0.945  (0.893)  |  1 hr 53 min
+0.0005 232.5    0.0 | 0.582  0.850  0.950  (0.896)   | 0.589  0.847  0.949  (0.894)  |  4 hr 12 min
+0.0005 235.0    0.1 | 0.582  0.849  0.950  (0.896)   | 0.581  0.855  0.947  (0.898)  |  6 hr 32 min
+0.0005 237.5    0.1 | 0.583  0.849  0.949  (0.896)   | 0.611  0.847  0.946  (0.892)  |  8 hr 52 min
+0.0005 240.0    0.1 | 0.581  0.850  0.950  (0.897)*  | 0.598  0.846  0.946  (0.893)  | 11 hr 11 min
+0.0005 242.5    0.1 | 0.582  0.850  0.950  (0.897)   | 0.583  0.850  0.947  (0.896)  | 13 hr 31 min
+0.0005 245.0    0.2 | 0.582  0.851  0.950  (0.897)   | 0.581  0.849  0.945  (0.893)  | 15 hr 51 min
+0.0005 247.5    0.2 | 0.584  0.851  0.948  (0.896)   | 0.568  0.852  0.951  (0.898)  | 18 hr 10 min
+0.0005 250.0    0.2 | 0.578  0.850  0.950  (0.896)*  | 0.616  0.843  0.945  (0.890)  | 20 hr 30 min
+0.0005 252.5    0.2 | 0.584  0.849  0.950  (0.896)   | 0.588  0.856  0.947  (0.898)  | 22 hr 50 min
+0.0005 255.0    0.3 | 0.583  0.851  0.949  (0.896)   | 0.582  0.856  0.948  (0.899)  | 25 hr 10 min
+0.0005 257.5    0.3 | 0.583  0.850  0.949  (0.896)   | 0.572  0.857  0.951  (0.901)  | 27 hr 32 min
+0.0005 260.0    0.3 | 0.582  0.851  0.949  (0.896)*  | 0.558  0.857  0.951  (0.901)  | 29 hr 52 min
+0.0005 262.5    0.3 | 0.584  0.852  0.950  (0.897)   | 0.559  0.864  0.949  (0.903)  | 32 hr 12 min
+
+--- [START 2018-12-02_18-27-25] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/code
+	__file__     = 100k
+	out_dir      = ../../output
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 340
+train_dataset : 
+	split        = train_0
+	mode         = train
+	complexity   = simplified
+	len(self.id) = 34000000
+
+
+valid_dataset : 
+	split        = valid_0
+	mode         = valid
+	complexity   = simplified
+	len(self.id) = 27200
+
+
+
+** net setting **
+	initial_checkpoint = /rscratch/xuanyu/KAIL/Kaggle_Doddle_Rank1/Alexander/output/checkpoint/00228000_model.pth
+<class 'torch.nn.parallel.data_parallel.DataParallel'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f29b17f4bf8>
+
+schduler
+  (Exp) Decay Learning Rates
+base_lr=0.001, decay=0.100, step=1000000.000
+
+** start training here! **
+                    |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+rate   iter  epoch  | loss   acc-1  acc-3   lb       | loss   acc-1  acc-3   lb      |  time   
+----------------------------------------------------------------------------------------------------
+0.0005 230.0    0.0 | 0.585  0.849  0.950  (0.896)*  | 0.598  0.553  0.615  (0.582)  |  2 hr 04 min
+0.0005 232.5    0.0 | 0.580  0.850  0.950  (0.896)   | 0.584  0.387  0.436  (0.410)  |  4 hr 38 min
+0.0005 235.0    0.1 | 0.580  0.850  0.950  (0.897)   | 0.584  0.429  0.476  (0.451)  |  7 hr 11 min
+0.0005 237.5    0.1 | 0.583  0.849  0.949  (0.896)   | 0.614  0.638  0.713  (0.672)  |  9 hr 46 min
+0.0005 240.0    0.1 | 0.581  0.851  0.949  (0.897)*  | 0.602  0.513  0.572  (0.540)  | 12 hr 20 min
+0.0005 242.5    0.1 | 0.581  0.851  0.950  (0.897)   | 0.587  0.342  0.382  (0.361)  | 14 hr 54 min
+0.0005 245.0    0.2 | 0.580  0.850  0.950  (0.897)   | 0.587  0.384  0.429  (0.405)  | 17 hr 28 min
+0.0005 247.5    0.2 | 0.583  0.849  0.949  (0.896)   | 0.572  0.341  0.386  (0.362)  | 20 hr 02 min
+0.0005 250.0    0.2 | 0.578  0.850  0.950  (0.896)*  | 0.624  0.425  0.477  (0.449)  | 22 hr 35 min
+0.0005 252.5    0.2 | 0.582  0.849  0.950  (0.896)   | 0.593  0.429  0.478  (0.452)  | 25 hr 10 min
+0.0005 255.0    0.3 | 0.583  0.851  0.948  (0.896)   | 0.581  0.645  0.714  (0.677)  | 27 hr 44 min
+0.0005 257.5    0.3 | 0.583  0.849  0.949  (0.896)   | 0.582  0.303  0.339  (0.319)  | 30 hr 19 min
+0.0005 260.0    0.3 | 0.581  0.851  0.949  (0.897)*  | 0.572  0.389  0.434  (0.410)  | 32 hr 55 min
+0.0005 262.5    0.3 | 0.583  0.852  0.949  (0.897)   | 0.562  0.220  0.246  (0.232)  | 35 hr 29 min
+0.0005 265.0    0.4 | 0.581  0.850  0.949  (0.896)   | 0.600  0.215  0.244  (0.228)  | 38 hr 03 min
