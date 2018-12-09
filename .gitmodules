@@ -1,0 +1,9 @@
+[submodule "external/Synchronized_BatchNorm_PyTorch"]
+	path = external/Synchronized_BatchNorm_PyTorch
+	url = https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
+[submodule "external/dsb2018_topcoders"]
+	path = external/dsb2018_topcoders
+	url = https://github.com/selimsef/dsb2018_topcoders
+[submodule "external/albumentations"]
+	path = external/albumentations
+	url = https://github.com/albu/albumentations
