@@ -1,5 +1,7 @@
-# ml-arsenal
-Full pipeline of a data science competition
+# kaggle-solutions
+
+(Updated Sep 2023) This is a repository containing some of my solutions to Kaggle competitions from 5 years ago. It is no longer being maintained. Feel free to use them as you wish.
+
 ## Dependencies
 - tensorflow-gpu
 - torch
@@ -21,7 +23,6 @@ Doodle: Venn @wangvenn, SeuTao @SeuTao, earhian @earhian, Tom57 @ThomasTilli, CH
 1. [TGS Salt Identification Challenge](https://www.kaggle.com/c/tgs-salt-identification-challenge/leaderboard)
 - Placement: **5/3291** (Gold Medal)
 - [Solution Journal](https://www.kaggle.com/c/tgs-salt-identification-challenge/discussion/69051)
-- [Kaggle TGS 盐体分割任务第五名解决方案](https://zhuanlan.zhihu.com/p/47412338)
 - **Model Performances:**
 
 |model|#fold|#models|public LB|private LB|placement|
